@@ -27,7 +27,11 @@
 
 #include "tusb.h"
 #include "get_serial.h"
-#include "probe_config.h"
+#include "DAP.h"
+#include "board_pico_config.h"
+#include "DAP_config.h"
+#include "probe.h"
+
 
 //--------------------------------------------------------------------+
 // Device Descriptors

@@ -1,28 +1,3 @@
-/*
- * The MIT License (MIT)
- *
- * Copyright (c) 2021 Raspberry Pi (Trading) Ltd.
- * Copyright (c) 2021 Peter Lawrence
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- */
 
 #include "FreeRTOS.h"
 #include "task.h"
@@ -34,27 +9,53 @@
 #include "bsp/board.h"
 #include "tusb.h"
 
-#include "probe_config.h"
-#include "probe.h"
-#include "cdc_uart.h"
 #include "get_serial.h"
-#include "led.h"
 #include "tusb_edpt_handler.h"
 #include "DAP.h"
+#include "board_pico_config.h"
+#include "DAP_config.h"
+#include "probe.h"
+
+
+
+// Define JTAG buffer size
+#define JTAG_BUFFER_SIZE 64
+
+// Define JTAG_BUILD_REQUEST and required variables
+
+   
+
+#define JTAG_BUILD_REQUEST(operation, register) (((operation) << 16) | (register))
+
 
 // UART0 for debugprobe debug
 // UART1 for debugprobe to target device
 
 static uint8_t TxDataBuffer[CFG_TUD_HID_EP_BUFSIZE];
 static uint8_t RxDataBuffer[CFG_TUD_HID_EP_BUFSIZE];
+//static uint8_t JTAGBuffer[JTAG_BUFFER_SIZE];
+
+
+
+
+//RTOS thread definition and  priority
 
 #define THREADED 1
 
-#define UART_TASK_PRIO (tskIDLE_PRIORITY + 3)
-#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 2)
-#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 1)
+#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 3)
+#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 2)
+#define JTAG_TASK_PRIO  (tskIDLE_PRIORITY + 1)
 
-TaskHandle_t dap_taskhandle, tud_taskhandle;
+
+//task handle
+
+TaskHandle_t dap_taskhandle, tud_taskhandle, jtag_taskhandle;
+
+
+
+
+
+//USB thread to be written here
 
 void usb_thread(void *ptr)
 {
@@ -74,62 +75,167 @@ void usb_thread(void *ptr)
     } while (1);
 }
 
+
+
+void jtag_thread(void *ptr)
+{
+   
+    while (1) { 
+    uint32_t idcode;
+    uint32_t request;
+
+        // Perform JTAG operation to read the IDCODE register
+        request = JTAG_BUILD_REQUEST(ID_DAP_Transfer | DAP_TRANSFER_RnW | DAP_TRANSFER_APnDP, ID_DAP_JTAG_IDCODE);
+        JTAG_Transfer(request, &idcode);
+
+        // Forward the IDCODE data to the USB HID interface
+        tud_hid_report(0, (uint8_t*)&idcode, sizeof(uint32_t));
+
+        // Delay for a short period to avoid busy-waiting
+        vTaskDelay(pdMS_TO_TICKS(10));
+    }
+}
+
+
+
+
 // Workaround API change in 0.13
 #if (TUSB_VERSION_MAJOR == 0) && (TUSB_VERSION_MINOR <= 12)
 #define tud_vendor_flush(x) ((void)0)
 #endif
 
+
+
+
+
+
+
+//Main function begins here ,Call all the required functions here to be executed JTAG not yet declared
+
 int main(void) {
 
+    probe_info("Welcome to jtagprobe!\n");
+    // Iniatalizing all functions except JTAG
+    //bi_decl_config();
     board_init();
     usb_serial_init();
-    cdc_uart_init();
     tusb_init();
     stdio_uart_init();
 
-    DAP_Setup();
 
-    led_init();
-
-    probe_info("Welcome to debugprobe!\n");
+    //led_init removed for the sake of simiplicity
+    //led_init();
 
     if (THREADED) {
         /* UART needs to preempt USB as if we don't, characters get lost */
-        xTaskCreate(cdc_thread, "UART", configMINIMAL_STACK_SIZE, NULL, UART_TASK_PRIO, &uart_taskhandle);
         xTaskCreate(usb_thread, "TUD", configMINIMAL_STACK_SIZE, NULL, TUD_TASK_PRIO, &tud_taskhandle);
         /* Lowest priority thread is debug - need to shuffle buffers before we can toggle swd... */
         xTaskCreate(dap_thread, "DAP", configMINIMAL_STACK_SIZE, NULL, DAP_TASK_PRIO, &dap_taskhandle);
+        vTaskStartScheduler();
+
+
+        /*JTAG thread which is created*/
+        xTaskCreate(jtag_thread, "JTAG", configMINIMAL_STACK_SIZE, NULL, JTAG_TASK_PRIO, &jtag_taskhandle);
         vTaskStartScheduler();
     }
 
     while (!THREADED) {
         tud_task();
-        cdc_task();
+
+
+
+
+        // In the non-threaded mode, continuously perform JTAG operations and forward data to USB
+        // Example: JTAG_Transfer(request, &data);
+        // Example: tud_hid_report(0, data, JTAG_BUFFER_SIZE);
+        // Perform JTAG operation to read the IDCODE register
+
+
+
+        uint32_t idcode;
+        uint32_t request;
+
+        request = JTAG_BUILD_REQUEST(ID_DAP_Transfer | DAP_TRANSFER_RnW | DAP_TRANSFER_APnDP, ID_DAP_JTAG_IDCODE);
+        JTAG_Transfer(request, &idcode);
+
+        // Forward the IDCODE data to the USB HID interface
+        tud_hid_report(0, (uint8_t*)&idcode, sizeof(uint32_t));
+
+        //Report buffer size
+        //tud_hid_report(0, data, JTAG_BUFFER_SIZE);
+
+        // Delay for a short period to avoid busy-waiting
+        vTaskDelay(pdMS_TO_TICKS(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #if (PROBE_DEBUG_PROTOCOL == PROTO_DAP_V2)
-        if (tud_vendor_available()) {
-            uint32_t resp_len;
-            tud_vendor_read(RxDataBuffer, sizeof(RxDataBuffer));
-            resp_len = DAP_ProcessCommand(RxDataBuffer, TxDataBuffer);
-            tud_vendor_write(TxDataBuffer, resp_len);
-        }
+      if (tud_vendor_available()) {
+          uint32_t resp_len;
+          tud_vendor_read(RxDataBuffer, sizeof(RxDataBuffer));
+          resp_len = DAP_ProcessCommand(RxDataBuffer, TxDataBuffer);
+          tud_vendor_write(TxDataBuffer, resp_len);
+      }
 #endif
     }
 
     return 0;
-}
+}    
+
+//Main function ends  here 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 uint16_t tud_hid_get_report_cb(uint8_t itf, uint8_t report_id, hid_report_type_t report_type, uint8_t* buffer, uint16_t reqlen)
 {
-  // TODO not Implemented
+  /*TODO not Implemented
   (void) itf;
   (void) report_id;
   (void) report_type;
   (void) buffer;
   (void) reqlen;
-
+*/
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 void tud_hid_set_report_cb(uint8_t itf, uint8_t report_id, hid_report_type_t report_type, uint8_t const* RxDataBuffer, uint16_t bufsize)
 {
@@ -140,10 +246,32 @@ void tud_hid_set_report_cb(uint8_t itf, uint8_t report_id, hid_report_type_t rep
   (void) report_id;
   (void) report_type;
 
-  DAP_ProcessCommand(RxDataBuffer, TxDataBuffer);
+  // You can process the received HID report from the host here if needed
+  //USB to JTAG to be processed here
+  // For now, let's forward it to JTAG (DAP) thread
+  // Example:  xQueueSendToBack(JTAGQueue, RxDataBuffer, 0);
 
-  tud_hid_report(0, TxDataBuffer, response_size);
+    DAP_ProcessCommand(RxDataBuffer, TxDataBuffer);
+    tud_hid_report(0, TxDataBuffer, response_size);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Required only to be compatible with ms windows devices 
+
+
+
+
 
 #if (PROBE_DEBUG_PROTOCOL == PROTO_DAP_V2)
 extern uint8_t const desc_ms_os_20[];

@@ -10,50 +10,36 @@ project(debugprobe)
 pico_sdk_init()
 
 add_executable(debugprobe
-        src/led.c
+
+        src/DAP.c
+        src/get_serial.c
+        src/JTAG_DP.c
         src/main.c
         src/usb_descriptors.c
-        src/probe.c
-        src/cdc_uart.c
-        src/get_serial.c
-        src/sw_dp_pio.c
         src/tusb_edpt_handler.c
+     
 )
 
 target_sources(debugprobe PRIVATE
-        CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c
-        CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c
+        
         CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
         CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
-        #CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
+        CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
         )
 
 target_include_directories(debugprobe PRIVATE
-        CMSIS_5/CMSIS/DAP/Firmware/Include/
+
         CMSIS_5/CMSIS/Core/Include/
         include/
         )
 
 target_compile_options(debugprobe PRIVATE -Wall)
 
-pico_generate_pio_header(debugprobe ${CMAKE_CURRENT_LIST_DIR}/src/probe.pio)
-pico_generate_pio_header(debugprobe ${CMAKE_CURRENT_LIST_DIR}/src/probe_oen.pio)
-
 target_include_directories(debugprobe PRIVATE src)
 
 target_compile_definitions (debugprobe PRIVATE
 	PICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1
 )
-
-option (DEBUG_ON_PICO "Compile firmware for the Pico instead of Debug Probe" OFF)
-if (DEBUG_ON_PICO)
-    target_compile_definitions (debugprobe PRIVATE 
-	DEBUG_ON_PICO=1
-    )
-    set_target_properties(debugprobe PROPERTIES 
-        OUTPUT_NAME "debugprobe_on_pico"
-    )
-endif ()
 
 
 target_link_libraries(debugprobe PRIVATE

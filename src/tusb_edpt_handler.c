@@ -6,6 +6,10 @@
 
 #include "tusb_edpt_handler.h"
 #include "DAP.h"
+#include "board_pico_config.h"
+#include "DAP_config.h"
+#include "probe.h"
+
 
 static uint8_t itf_num;
 static uint8_t _rhport;

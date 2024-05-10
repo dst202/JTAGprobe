@@ -27,6 +27,11 @@
 #include "pico.h"
 #include "pico/unique_id.h"
 #include "get_serial.h"
+#include "DAP_config.h"
+#include "DAP.h"
+#include "probe.h"
+
+
 
 /* C string for iSerialNumber in USB Device Descriptor, two chars per byte + terminating NUL */
 char usb_serial[PICO_UNIQUE_BOARD_ID_SIZE_BYTES * 2 + 1];

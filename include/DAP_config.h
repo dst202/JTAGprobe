@@ -47,7 +47,6 @@ This information includes:
 #include <hardware/gpio.h>
 
 #include "cmsis_compiler.h"
-#include "probe_config.h"
 #include "probe.h"
 
 /// Processor Clock of the Cortex-M MCU used in the Debug Unit.
@@ -62,15 +61,15 @@ This information includes:
 /// a Cortex-M0+ processor with high-speed peripheral I/O only 1 processor cycle might be
 /// required.
 #define IO_PORT_WRITE_CYCLES    1U              ///< I/O Cycles: 2=default, 1=Cortex-M0+ fast I/0.
-#define DELAY_SLOW_CYCLES 1U // We don't differentiate between fast/slow, we've got a 16-bit divisor for that
+//#define DELAY_SLOW_CYCLES 1U // We don't differentiate between fast/slow, we've got a 16-bit divisor for that
 
 /// Indicate that Serial Wire Debug (SWD) communication mode is available at the Debug Access Port.
 /// This information is returned by the command \ref DAP_Info as part of <b>Capabilities</b>.
-#define DAP_SWD                 1               ///< SWD Mode:  1 = available, 0 = not available.
+#define DAP_SWD                 0               ///< SWD Mode:  1 = available, 0 = not available.
 
 /// Indicate that JTAG communication mode is available at the Debug Port.
 /// This information is returned by the command \ref DAP_Info as part of <b>Capabilities</b>.
-#define DAP_JTAG                0               ///< JTAG Mode: 1 = available, 0 = not available.
+#define DAP_JTAG                1               ///< JTAG Mode: 1 = available, 0 = not available.
 
 /// Configure maximum number of JTAG devices on the scan chain connected to the Debug Access Port.
 /// This setting impacts the RAM requirements of the Debug Unit. Valid range is 1 .. 255.
@@ -78,7 +77,7 @@ This information includes:
 
 /// Default communication mode on the Debug Access Port.
 /// Used for the command \ref DAP_Connect when Port Default mode is selected.
-#define DAP_DEFAULT_PORT        1U              ///< Default JTAG/SWJ Port Mode: 1 = SWD, 2 = JTAG.
+#define DAP_DEFAULT_PORT        2U              ///< Default JTAG/SWJ Port Mode: 1 = SWD, 2 = JTAG.
 
 /// Default communication speed on the Debug Access Port for SWD and JTAG mode.
 /// Used to initialize the default SWD/JTAG clock frequency.
@@ -306,8 +305,12 @@ Configures the DAP Hardware I/O pins for JTAG mode:
  - TCK, TMS, TDI, nTRST, nRESET to output mode and set to high level.
  - TDO to input mode.
 */
+
+
+ 
 __STATIC_INLINE void PORT_JTAG_SETUP (void) {
-  ;
+   ;
+  
 }
 
 /** Setup SWD I/O pins: SWCLK, SWDIO, and nRESET.
@@ -316,10 +319,8 @@ Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
  - TDI, nTRST to HighZ mode (pins are unused in SWD mode).
 */
 // hack - zap our "stop doing divides everywhere" cache
-extern volatile uint32_t cached_delay;
 __STATIC_INLINE void PORT_SWD_SETUP (void) {
-  probe_init();
-  cached_delay = 0;
+ ;
 }
 
 /** Disable JTAG/SWD I/O Pins.
@@ -327,7 +328,7 @@ Disables the DAP Hardware I/O pins which configures:
  - TCK/SWCLK, TMS/SWDIO, TDI, TDO, nTRST, nRESET to High-Z mode.
 */
 __STATIC_INLINE void PORT_OFF (void) {
-  probe_deinit();
+  ;
 }
 
 
@@ -397,7 +398,7 @@ Configure the SWDIO DAP hardware I/O pin to output mode. This function is
 called prior \ref PIN_SWDIO_OUT function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
-  probe_write_mode();
+  ;
 }
 
 /** SWDIO I/O pin: Switch to Input mode (used in SWD mode only).
@@ -405,7 +406,7 @@ Configure the SWDIO DAP hardware I/O pin to input mode. This function is
 called prior \ref PIN_SWDIO_IN function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
-  probe_read_mode();
+  ;
 }
 
 
@@ -480,6 +481,7 @@ __STATIC_FORCEINLINE void     PIN_nRESET_OUT (uint32_t bit) {
 #endif
 }
 
+
 ///@}
 
 
@@ -519,7 +521,6 @@ __STATIC_INLINE void LED_RUNNING_OUT (uint32_t bit) {
 }
 
 ///@}
-
 
 //**************************************************************************************************
 /**
@@ -561,7 +562,7 @@ Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled an
  - LED output pins are enabled and LEDs are turned off.
 */
 __STATIC_INLINE void DAP_SETUP (void) {
-  probe_gpio_init();
+  ;
 }
 
 /** Reset Target Device with custom specific I/O pin or command sequence.
