@@ -480,7 +480,7 @@ called prior \ref PIN_SWDIO_OUT function calls.
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
 
     gpio_set_dir(DAP_SWJ_SWCLK_TMS, GPIO_OUT); // set pin to output mode
-    gpio_put(DAP_SWJ_SWCLK_TMS, true); // Set pin output to high
+    gpio_put(DAP_SWJ_SWCLK_TMS, true); // Set pin output to high (also called high z mode)
 
 }
 
@@ -502,7 +502,7 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_TDI_IN  (void) {
 
-  return ((LPC_GPIO_PORT->PIN [PIN_TDI_PORT] >> PIN_TDI_BIT) & 1U);
+    return gpio_get(DAP_SWJ_TDI);
 
 
 }
@@ -512,8 +512,7 @@ __STATIC_FORCEINLINE uint32_t PIN_TDI_IN  (void) {
 */
 __STATIC_FORCEINLINE void     PIN_TDI_OUT (uint32_t bit) {
 
-  LPC_GPIO_PORT->MPIN[PIN_TDI_PORT] = bit << PIN_TDI_BIT;
-
+    gpio_put_masked(1U << DAP_SWJ_TDI, bit << DAP_SWJ_TDI);
 
 }
 
@@ -525,7 +524,7 @@ __STATIC_FORCEINLINE void     PIN_TDI_OUT (uint32_t bit) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_TDO_IN  (void) {
 
-  return ((LPC_GPIO_PORT->PIN[PIN_TDO_PORT] >> PIN_TDO_BIT) & 1U);
+    return gpio_get(DAP_SWJ_TDO);
 
 
 }
@@ -555,11 +554,8 @@ __STATIC_FORCEINLINE void     PIN_nTRST_OUT  (uint32_t bit) {
 \return Current status of the nRESET DAP hardware I/O pin.
 */
 __STATIC_FORCEINLINE uint32_t PIN_nRESET_IN  (void) {
-#ifdef PROBE_PIN_RESET
-  return probe_reset_level();
-#else
-  return (0U);
-#endif
+
+  gpio_get(DAP_SWJ_nRESET);
 }
 
 /** nRESET I/O pin: Set Output.
@@ -568,11 +564,14 @@ __STATIC_FORCEINLINE uint32_t PIN_nRESET_IN  (void) {
            - 1: release device hardware reset.
 */
 __STATIC_FORCEINLINE void     PIN_nRESET_OUT (uint32_t bit) {
-#ifdef PROBE_PIN_RESET
-  probe_assert_reset(!!bit);
-#else
-  (void) bit;
-#endif
+  if (bit) {
+        gpio_set_dir(DAP_SWJ_nRESET, GPIO_IN); // Set pin direction to input
+        gpio_set_dir_out_masked(1U << DAP_SWJ_nRESET); // Set output enable for pin
+    } else {
+        gpio_set_dir_in_masked(1U << DAP_SWJ_nRESET); // Clear output enable for pin
+        gpio_set_dir(DAP_SWJ_nRESET, GPIO_OUT); // Set pin direction to output
+    }
+
 }
 
 
