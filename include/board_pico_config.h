@@ -26,6 +26,10 @@
 #ifndef BOARD_PICO_H_
 #define BOARD_PICO_H_
 
+
+
+
+
 #define PROBE_USB_CONNECTED_LED 25
 #define PROBE_PRODUCT_STRING "JTAG probe on Pico (CMSIS-DAP)"
 

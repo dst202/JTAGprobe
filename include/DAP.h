@@ -25,8 +25,7 @@
  *
  *---------------------------------------------------------------------------*/
 
-
-
+#define DAP_SWD                 1      
 #define DAP_JTAG                1
 #define DAP_JTAG_DEV_CNT        8U   
 
@@ -146,17 +145,6 @@
 #define DAP_SWJ_nTRST                   5       // nTRST
 #define DAP_SWJ_nRESET                  7       // nRESET
 
-
-/*//check cdefinition in case of this causing error
-
-#define PIN_SWCLK_TCK               0       // SWCLK/TCK
-#define PIN_SWDIO_TMS               1       // SWDIO/TMS
-#define PIN_TDI                     2       // TDI
-#define PIN_TDO                     3       // TDO
-#define PIN_nTRST                   5       // nTRST
-#define PIN_nRESET                  7       // nRESET
-
-*/
 
 
 

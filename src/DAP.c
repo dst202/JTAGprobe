@@ -60,8 +60,25 @@
 #define CLOCK_DELAY(swj_clock) \
  (((CPU_CLOCK/2U) / swj_clock) - IO_PORT_WRITE_CYCLES)
 
+// this part is written to fix swd_turnaround data_phase error messages
+
+
+/*
+typedef struct {
+    // Other members of DAP_Data_t
+    struct {
+        uint8_t turnaround;
+        uint8_t data_phase;
+    } swd_conf;
+    // Other members of DAP_Data_t
+} DAP_Data_t;
+*/
+
+
+
 
          DAP_Data_t DAP_Data;           // DAP Data
+        
 volatile uint8_t    DAP_TransferAbort;  // Transfer Abort Flag
 
 
@@ -71,10 +88,6 @@ static const char DAP_FW_Ver [] = DAP_FW_VER;
 static const char TargetDeviceVendor [] = TARGET_DEVICE_VENDOR;
 static const char TargetDeviceName   [] = TARGET_DEVICE_NAME;
 #endif
-
-// this is being when dap is bein initialized 
-
-
 
 
 
