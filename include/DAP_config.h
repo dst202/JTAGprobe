@@ -362,7 +362,7 @@ Configures the DAP Hardware I/O pins for JTAG mode:
  
 __STATIC_INLINE void PORT_JTAG_SETUP (void) {
 
-  PC_GPIO_PORT->MASK[PIN_SWDIO_TMS_PORT] = 0U;
+  LPC_GPIO_PORT->MASK[PIN_SWDIO_TMS_PORT] = 0U;
   LPC_GPIO_PORT->MASK[PIN_TDI_PORT] = ~(1U << PIN_TDI_BIT);
   
 }
