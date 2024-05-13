@@ -50,6 +50,7 @@ This information includes:
 
 #include "cmsis_compiler.h"
 #include "probe.h"
+#include "DAP.h"
 
 /// Processor Clock of the Cortex-M MCU used in the Debug Unit.
 /// This value is used to calculate the SWD/JTAG clock speed.
@@ -401,16 +402,15 @@ __STATIC_INLINE void PORT_OFF (void) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_SWCLK_TCK_IN  (void) {
 
-   return ((LPC_GPIO_PORT->PIN[PIN_SWCLK_TCK_PORT] >> PIN_SWCLK_TCK_BIT) & 1U);
-}
+    return gpio_get(DAP_SWJ_SWCLK_TCK);
+    }
 
 /** SWCLK/TCK I/O pin: Set Output to High.
 Set the SWCLK/TCK DAP hardware I/O pin to high level.
 */
 __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_SET (void) {
 
-   LPC_GPIO_PORT->SET[PIN_SWCLK_TCK_PORT] = 1U << PIN_SWCLK_TCK_BIT;
-
+  gpio_put(DAP_SWJ_SWCLK_TCK, true);
 }
 
 /** SWCLK/TCK I/O pin: Set Output to Low.
@@ -419,7 +419,7 @@ Set the SWCLK/TCK DAP hardware I/O pin to low level.
 __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
 
 
-  LPC_GPIO_PORT->CLR[PIN_SWCLK_TCK_PORT] = 1U << PIN_SWCLK_TCK_BIT;
+  gpio_put(DAP_SWJ_SWCLK_TCK, false);
 
 
 }
@@ -432,7 +432,7 @@ __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_SWDIO_TMS_IN  (void) {
 
-  return ((LPC_GPIO_PORT->PIN[PIN_SWDIO_TMS_PORT] >> PIN_SWDIO_TMS_BIT) & 1U);
+    return gpio_get(DAP_SWJ_SWDIO_TMS);
 
 
 }
@@ -442,7 +442,7 @@ Set the SWDIO/TMS DAP hardware I/O pin to high level.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_SET (void) {
 
-  LPC_GPIO_PORT->SET[PIN_SWDIO_TMS_PORT] = 1U << PIN_SWDIO_TMS_BIT;
+  gpio_put(DAP_SWJ_SWCLK_TMS, true);
 
 }
 
@@ -451,7 +451,7 @@ Set the SWDIO/TMS DAP hardware I/O pin to low level.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
 
-  LPC_GPIO_PORT->CLR[PIN_SWDIO_TMS_PORT] = 1U << PIN_SWDIO_TMS_BIT;
+  gpio_put(DAP_SWJ_SWCLK_TMS, false);
 
 }
 
@@ -460,7 +460,7 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN      (void) {
   
-  return (LPC_GPIO_PORT->MPIN[PIN_SWDIO_TMS_PORT] >> PIN_SWDIO_TMS_BIT);
+    return gpio_get(DAP_SWJ_SWDIO_TMS);
 
 }
 
@@ -469,8 +469,7 @@ __STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN      (void) {
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
 
-  LPC_GPIO_PORT->MPIN[PIN_SWDIO_TMS_PORT] = bit << PIN_SWDIO_TMS_BIT;
-
+    gpio_put(DAP_SWJ_SWCLK_TMS, bit);
 
 }
 
@@ -480,8 +479,8 @@ called prior \ref PIN_SWDIO_OUT function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
 
-  LPC_GPIO_PORT->SET[PIN_SWDIO_OE_PORT] = 1U << PIN_SWDIO_OE_BIT;
-
+    gpio_set_dir(DAP_SWJ_SWCLK_TMS, GPIO_OUT); // set pin to output mode
+    gpio_put(DAP_SWJ_SWCLK_TMS, true); // Set pin output to high
 
 }
 
@@ -491,8 +490,7 @@ called prior \ref PIN_SWDIO_IN function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 
-  LPC_GPIO_PORT->CLR[PIN_SWDIO_OE_PORT] = 1U << PIN_SWDIO_OE_BIT;
-
+    gpio_put(DAP_SWJ_SWCLK_TMS, false);
 
 }
 
