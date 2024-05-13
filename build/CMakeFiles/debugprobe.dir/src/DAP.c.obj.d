@@ -68,6 +68,7 @@ CMakeFiles/debugprobe.dir/src/DAP.c.obj: \
  /home/teja/Pico/JTAGprobe/include/DAP.h \
  /home/teja/Pico/JTAGprobe/include/DAP_config.h \
  /home/teja/Pico/JTAGprobe/include/board_pico_config.h \
+ /home/teja/Pico/JTAGprobe/include/DAP.h \
  /home/teja/Pico/JTAGprobe/src/probe.h \
  /home/teja/Pico/JTAGprobe/src/tusb_edpt_handler.h \
  /home/teja/Pico/pico-sdk/lib/tinyusb/src/tusb.h \
