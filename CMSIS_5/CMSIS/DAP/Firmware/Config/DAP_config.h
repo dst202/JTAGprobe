@@ -430,10 +430,15 @@ CMSIS-DAP Hardware I/O and LED Pins are initialized with the function \ref DAP_S
 /** Setup of the Debug Unit I/O pins and LEDs (called when Debug Unit is initialized).
 This function performs the initialization of the CMSIS-DAP Hardware I/O Pins and the 
 Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled and set:
+
  - I/O clock system enabled.
+
  - all I/O pins: input buffer enabled, output pins are set to HighZ mode.
+
  - for nTRST, nRESET a weak pull-up (if available) is enabled.
+
  - LED output pins are enabled and LEDs are turned off.
+ 
 */
 __STATIC_INLINE void DAP_SETUP (void) {
   ;
