@@ -265,55 +265,6 @@ __STATIC_INLINE uint8_t DAP_GetProductFirmwareVersionString (char *str) {
 ///@}
 
 
-
-
-// Debug Port I/O Pins
-
-// SWCLK/TCK Pin                P1_17: GPIO0[0]
-#define PIN_SWCLK_TCK_PORT      0
-#define PIN_SWCLK_TCK_BIT       0
-
-// SWDIO/TMS Pin                P1_6:  GPIO1[1]
-#define PIN_SWDIO_TMS_PORT      1
-#define PIN_SWDIO_TMS_BIT       1
-
-// SWDIO Output Enable Pin      P1_5:  GPIO1[8]
-#define PIN_SWDIO_OE_PORT       1
-#define PIN_SWDIO_OE_BIT        8
-
-// TDI Pin                      P1_18: GPIO0[2]
-#define PIN_TDI_PORT            0
-#define PIN_TDI_BIT             2
-
-// TDO Pin                      P1_14: GPIO1[3]
-#define PIN_TDO_PORT            1
-#define PIN_TDO_BIT             3
-
-// nTRST Pin                    Not available
-#define PIN_nTRST_PORT
-#define PIN_nTRST_BIT
-
-// nRESET Pin                   P2_5:  GPIO5[5]
-#define PIN_nRESET_PORT         5
-#define PIN_nRESET_BIT          5
-
-// nRESET Output Enable Pin     P2_6:  GPIO5[6]
-#define PIN_nRESET_OE_PORT      5
-#define PIN_nRESET_OE_BIT       6
-
-
-// Debug Unit LEDs
-
-// Connected LED                P1_1: GPIO0[8]
-#define LED_CONNECTED_PORT      0
-#define LED_CONNECTED_BIT       8
-
-// Target Running LED           Not available
-
-
-
-
-
 //**************************************************************************************************
 /**
 \defgroup DAP_Config_PortIO_gr CMSIS-DAP Hardware I/O Pin Access
@@ -350,6 +301,21 @@ of the same I/O port. The following SWDIO I/O Pin functions are provided:
 */
 
 
+
+ 
+
+//highz mode function definition
+
+__STATIC_INLINE void set_pin_high_z(uint pin) {
+  
+    gpio_init(pin);             // Initialize the pin
+    gpio_set_dir(pin, GPIO_IN); // Set the pin as input
+    gpio_disable_pulls(pin);    // Disable pull-up and pull-down resistors
+}
+
+
+
+
 // Configure DAP I/O pins ------------------------------
 
 /** Setup JTAG I/O pins: TCK, TMS, TDI, TDO, nTRST, and nRESET.
@@ -359,24 +325,56 @@ Configures the DAP Hardware I/O pins for JTAG mode:
 */
 
 
- 
 __STATIC_INLINE void PORT_JTAG_SETUP (void) {
 
-  LPC_GPIO_PORT->MASK[PIN_SWDIO_TMS_PORT] = 0U;
-  LPC_GPIO_PORT->MASK[PIN_TDI_PORT] = ~(1U << PIN_TDI_BIT);
-  
+//Later Mask can be written
+
+  gpio_set_dir(DAP_SWJ_SWCLK_TCK,true);
+  gpio_put(DAP_SWJ_SWCLK_TCK, true);
+
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
+  gpio_put(DAP_SWJ_SWDIO_TMS, true);
+
+  gpio_set_dir(DAP_SWJ_TDI,true);
+  gpio_put(DAP_SWJ_TDI, true);
+
+  gpio_set_dir(DAP_SWJ_nRESET,true);
+  gpio_put(DAP_SWJ_nRESET, true);
+
+
+  gpio_set_dir(DAP_SWJ_TDO,false);
+
+
 }
+
+
+
+
+
+
+
+
 
 /** Setup SWD I/O pins: SWCLK, SWDIO, and nRESET.
 Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
  - SWCLK, SWDIO, nRESET to output mode and set to default high level.
  - TDI, nTRST to HighZ mode (pins are unused in SWD mode).
 */
-// hack - zap our "stop doing divides everywhere" cache
 __STATIC_INLINE void PORT_SWD_SETUP (void) {
 
-  LPC_GPIO_PORT->MASK[PIN_TDI_PORT] = 0U;
-  LPC_GPIO_PORT->MASK[PIN_SWDIO_TMS_PORT] = ~(1U << PIN_SWDIO_TMS_BIT);
+  pio_set_dir(DAP_SWJ_SWCLK_TCK,true);
+  gpio_put(DAP_SWJ_SWCLK_TCK, true);
+
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
+  gpio_put(DAP_SWJ_SWDIO_TMS, true);
+
+  gpio_set_dir(DAP_SWJ_nRESET,true);
+  gpio_put(DAP_SWJ_nRESET, true);
+
+  set_pin_high_z(DAP_SWJ_TDI);
+  set_pin_high_z(DAP_SWJ_nTRST);
+
+
 }
 
 /** Disable JTAG/SWD I/O Pins.
@@ -385,12 +383,13 @@ Disables the DAP Hardware I/O pins which configures:
 */
 __STATIC_INLINE void PORT_OFF (void) {
 
-  LPC_GPIO_PORT->SET[PIN_SWCLK_TCK_PORT]  =  (1U << PIN_SWCLK_TCK_BIT);
-  LPC_GPIO_PORT->SET[PIN_SWDIO_TMS_PORT]  =  (1U << PIN_SWDIO_TMS_BIT);
-  LPC_GPIO_PORT->SET[PIN_SWDIO_OE_PORT]   =  (1U << PIN_SWDIO_OE_BIT);
-  LPC_GPIO_PORT->SET[PIN_TDI_PORT]        =  (1U << PIN_TDI_BIT);
-  LPC_GPIO_PORT->DIR[PIN_nRESET_PORT]    &= ~(1U << PIN_nRESET_BIT);
-  LPC_GPIO_PORT->CLR[PIN_nRESET_OE_PORT]  =  (1U << PIN_nRESET_OE_BIT);
+    set_pin_high_z(DAP_SWJ_SWCLK_TCK);
+    set_pin_high_z(DAP_SWJ_SWDIO_TMS);
+    set_pin_high_z(DAP_SWJ_TDI);
+    set_pin_high_z(DAP_SWJ_TDO);
+    set_pin_high_z(DAP_SWJ_nTRST);
+    set_pin_high_z(DAP_SWJ_nRESET);
+
 
 }
 
@@ -506,6 +505,14 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
       OE         = 1
   */
 
+    if(bit){
+        gpio_set_dir(DAP_SWJ_SWDIO_TMS,false);
+
+    }
+    else{
+        gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
+
+    }
 
 
 
@@ -520,9 +527,7 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
   // To implement this Output Enable
   //set PU 1
 
-
-
-
+    gpio_set_pulls(DAP_SWJ_SWDIO_TMS,true,false);
     
 
 }
@@ -535,6 +540,9 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 
 //To implement Output Disable
 //Set  OE 0,PU 0
+
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS,false);
+  gpio_set_pulls(DAP_SWJ_SWDIO_TMS,false,false);
 
 }
 
