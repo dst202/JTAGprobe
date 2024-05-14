@@ -355,6 +355,9 @@ __STATIC_INLINE void PORT_JTAG_SETUP (void) {
   gpio_set_dir(DAP_SWJ_TDI,true);
   gpio_put(DAP_SWJ_TDI, true);
 
+  gpio_set_dir(DAP_SWJ_nTRST,true);
+  gpio_put(DAP_SWJ_nTRST, true);
+
   gpio_set_dir(DAP_SWJ_nRESET,true);
   gpio_put(DAP_SWJ_nRESET, true);
 
