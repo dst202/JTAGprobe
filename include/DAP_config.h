@@ -307,8 +307,7 @@ of the same I/O port. The following SWDIO I/O Pin functions are provided:
 //highz mode function definition
 
 __STATIC_INLINE void set_pin_high_z(uint pin) {
-  
-    gpio_init(pin);             // Initialize the pin
+
     gpio_set_dir(pin, GPIO_IN); // Set the pin as input
     gpio_disable_pulls(pin);    // Disable pull-up and pull-down resistors
 }
@@ -468,11 +467,6 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
 
 
 
-
-
-
-
-
 //Functions to be changed as they are being used in SWD mode only for SWD connections
 
 
@@ -545,13 +539,6 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
   gpio_set_pulls(DAP_SWJ_SWDIO_TMS,false,false);
 
 }
-
-
-
-
-
-
-
 
 
 
