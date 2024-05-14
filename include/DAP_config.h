@@ -301,8 +301,17 @@ of the same I/O port. The following SWDIO I/O Pin functions are provided:
 */
 
 
+ // DAP SWJ Pins
+#define DAP_SWJ_SWCLK_TCK               0       // SWCLK/TCK
+#define DAP_SWJ_SWDIO_TMS               1       // SWDIO/TMS
+#define DAP_SWJ_TDI                     2       // TDI
+#define DAP_SWJ_TDO                     3       // TDO
+#define DAP_SWJ_nTRST                   5       // nTRST
+#define DAP_SWJ_nRESET                  7       // nRESET
 
- 
+
+
+
 
 //highz mode function definition
 
@@ -361,7 +370,7 @@ Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
 */
 __STATIC_INLINE void PORT_SWD_SETUP (void) {
 
-  pio_set_dir(DAP_SWJ_SWCLK_TCK,true);
+  gpio_set_dir(DAP_SWJ_SWCLK_TCK,true);
   gpio_put(DAP_SWJ_SWCLK_TCK, true);
 
   gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
@@ -452,7 +461,7 @@ Set the SWDIO/TMS DAP hardware I/O pin to high level.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_SET (void) {
 
-  gpio_put(DAP_SWJ_SWCLK_TMS, true);
+  gpio_put(DAP_SWJ_SWDIO_TMS, true);
 
 }
 
@@ -461,7 +470,7 @@ Set the SWDIO/TMS DAP hardware I/O pin to low level.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
 
-  gpio_put(DAP_SWJ_SWCLK_TMS, false);
+  gpio_put(DAP_SWJ_SWDIO_TMS, false);
 
 }
 
@@ -603,7 +612,7 @@ __STATIC_FORCEINLINE void     PIN_nTRST_OUT  (uint32_t bit) {
 */
 __STATIC_FORCEINLINE uint32_t PIN_nRESET_IN  (void) {
 
-  gpio_get(DAP_SWJ_nRESET);
+  return gpio_get(DAP_SWJ_nRESET);
 }
 
 /** nRESET I/O pin: Set Output.
@@ -709,25 +718,8 @@ Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled an
 __STATIC_INLINE void DAP_SETUP (void) {
 
  /* Enable clock and init GPIO outputs */
-  LPC_CCU1->CLK_M4_GPIO_CFG = CCU_CLK_CFG_AUTO | CCU_CLK_CFG_RUN;
-  while (!(LPC_CCU1->CLK_M4_GPIO_STAT & CCU_CLK_STAT_RUN));
-
-
-
-
-
-
-  /* Configure I/O pins: function number, input buffer enabled,  */
-  /*                     no pull-up/down except nRESET (pull-up) */
-  LPC_SCU->SFSP1_17 = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* SWCLK/TCK: GPIO0[12] */
-  LPC_SCU->SFSP1_6  = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* SWDIO/TMS: GPIO1[9]  */
-  LPC_SCU->SFSP1_5  = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* SWDIO_OE:  GPIO1[8]  */
-  LPC_SCU->SFSP1_18 = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* TDI:       GPIO0[13] */
-  LPC_SCU->SFSP1_14 = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* TDO:       GPIO1[7]  */
-  LPC_SCU->SFSP2_5  = 4U |              SCU_SFS_EZI;  /* nRESET:    GPIO5[5]  */
-  LPC_SCU->SFSP2_6  = 4U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* nRESET_OE: GPIO5[6]  */
-  LPC_SCU->SFSP1_1  = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* LED:       GPIO0[8]  */
-
+  
+  stdio_init_all();
 
 
 
@@ -736,6 +728,8 @@ __STATIC_INLINE void DAP_SETUP (void) {
   /*            TDO as input                                                  */
   /*            nRESET as input with output latch set to low level            */
   /*            nRESET_OE as output (low level)                               */
+
+
 
   gpio_set_dir(DAP_SWJ_SWCLK_TCK,true);
   gpio_put(DAP_SWJ_SWCLK_TCK, true);
@@ -751,8 +745,7 @@ __STATIC_INLINE void DAP_SETUP (void) {
   gpio_set_dir(DAP_SWJ_nRESET,false);
   gpio_put(DAP_SWJ_nRESET,true);
 
-  /* Configure Peripheral Interrupt Priorities */
-  NVIC_SetPriority(USB0_IRQn, 1U);
+
 }
 
 
