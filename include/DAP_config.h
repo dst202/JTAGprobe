@@ -697,16 +697,25 @@ CMSIS-DAP Hardware I/O and LED Pins are initialized with the function \ref DAP_S
 /** Setup of the Debug Unit I/O pins and LEDs (called when Debug Unit is initialized).
 This function performs the initialization of the CMSIS-DAP Hardware I/O Pins and the
 Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled and set:
+
  - I/O clock system enabled.
+
  - all I/O pins: input buffer enabled, output pins are set to HighZ mode.
+
  - for nTRST, nRESET a weak pull-up (if available) is enabled.
- - LED output pins are enabled and LEDs are turned off.
+
+
 */
 __STATIC_INLINE void DAP_SETUP (void) {
 
  /* Enable clock and init GPIO outputs */
   LPC_CCU1->CLK_M4_GPIO_CFG = CCU_CLK_CFG_AUTO | CCU_CLK_CFG_RUN;
   while (!(LPC_CCU1->CLK_M4_GPIO_STAT & CCU_CLK_STAT_RUN));
+
+
+
+
+
 
   /* Configure I/O pins: function number, input buffer enabled,  */
   /*                     no pull-up/down except nRESET (pull-up) */
@@ -719,27 +728,28 @@ __STATIC_INLINE void DAP_SETUP (void) {
   LPC_SCU->SFSP2_6  = 4U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* nRESET_OE: GPIO5[6]  */
   LPC_SCU->SFSP1_1  = 0U | SCU_SFS_EPUN|SCU_SFS_EZI;  /* LED:       GPIO0[8]  */
 
-  /* Configure: SWCLK/TCK, SWDIO/TMS, SWDIO_OE, TDI as outputs (high level)   */
+
+
+
+
+  /* Configure: SWCLK/TCK, SWDIO/TMS, (not used here SWDIO_OE), TDI as outputs (high level)   */
   /*            TDO as input                                                  */
   /*            nRESET as input with output latch set to low level            */
   /*            nRESET_OE as output (low level)                               */
-  LPC_GPIO_PORT->SET[PIN_SWCLK_TCK_PORT]  =  (1U << PIN_SWCLK_TCK_BIT);
-  LPC_GPIO_PORT->SET[PIN_SWDIO_TMS_PORT]  =  (1U << PIN_SWDIO_TMS_BIT);
-  LPC_GPIO_PORT->SET[PIN_SWDIO_OE_PORT]   =  (1U << PIN_SWDIO_OE_BIT);
-  LPC_GPIO_PORT->SET[PIN_TDI_PORT]        =  (1U << PIN_TDI_BIT);
-  LPC_GPIO_PORT->CLR[PIN_nRESET_PORT]     =  (1U << PIN_nRESET_BIT);
-  LPC_GPIO_PORT->CLR[PIN_nRESET_OE_PORT]  =  (1U << PIN_nRESET_OE_BIT);
-  LPC_GPIO_PORT->DIR[PIN_SWCLK_TCK_PORT] |=  (1U << PIN_SWCLK_TCK_BIT);
-  LPC_GPIO_PORT->DIR[PIN_SWDIO_TMS_PORT] |=  (1U << PIN_SWDIO_TMS_BIT);
-  LPC_GPIO_PORT->DIR[PIN_SWDIO_OE_PORT]  |=  (1U << PIN_SWDIO_OE_BIT);
-  LPC_GPIO_PORT->DIR[PIN_TDI_PORT]       |=  (1U << PIN_TDI_BIT);
-  LPC_GPIO_PORT->DIR[PIN_TDO_PORT]       &= ~(1U << PIN_TDO_BIT);
-  LPC_GPIO_PORT->DIR[PIN_nRESET_PORT]    &= ~(1U << PIN_nRESET_BIT);
-  LPC_GPIO_PORT->DIR[PIN_nRESET_OE_PORT] |=  (1U << PIN_nRESET_OE_BIT);
 
-  /* Configure: LED as output (turned off) */
-  LPC_GPIO_PORT->CLR[LED_CONNECTED_PORT]  =  (1U << LED_CONNECTED_BIT);
-  LPC_GPIO_PORT->DIR[LED_CONNECTED_PORT] |=  (1U << LED_CONNECTED_BIT);
+  gpio_set_dir(DAP_SWJ_SWCLK_TCK,true);
+  gpio_put(DAP_SWJ_SWCLK_TCK, true);
+
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
+  gpio_put(DAP_SWJ_SWDIO_TMS, true);
+
+  gpio_set_dir(DAP_SWJ_TDI,true);
+  gpio_put(DAP_SWJ_TDI, true);
+
+  gpio_set_dir(DAP_SWJ_TDO,false);
+
+  gpio_set_dir(DAP_SWJ_nRESET,false);
+  gpio_put(DAP_SWJ_nRESET,true);
 
   /* Configure Peripheral Interrupt Priorities */
   NVIC_SetPriority(USB0_IRQn, 1U);
