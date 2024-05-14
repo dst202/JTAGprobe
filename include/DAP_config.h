@@ -322,7 +322,16 @@ __STATIC_INLINE void set_pin_high_z(uint pin) {
 }
 
 
+/*
+//gpio inti function defined here
 
+__STATIC_INLINE void gpio_init(uint gpio) {
+    gpio_set_dir(gpio, GPIO_IN);
+    gpio_put(gpio, 0);
+    gpio_set_function(gpio, GPIO_FUNC_SIO);
+}
+
+*/
 
 // Configure DAP I/O pins ------------------------------
 
@@ -719,7 +728,15 @@ __STATIC_INLINE void DAP_SETUP (void) {
 
  /* Enable clock and init GPIO outputs */
   
-  stdio_init_all();
+  gpio_init(DAP_SWJ_SWCLK_TCK);
+  gpio_init(DAP_SWJ_SWDIO_TMS);
+  gpio_init(DAP_SWJ_TDI);
+  gpio_init(DAP_SWJ_TDO);
+  gpio_init(DAP_SWJ_nTRST);
+  gpio_init(DAP_SWJ_nRESET);
+
+
+
 
 
 
