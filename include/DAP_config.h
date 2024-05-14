@@ -427,6 +427,18 @@ __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
 
 // SWDIO/TMS Pin I/O --------------------------------------
 
+
+
+// Implementing SWDIO without using level shifter with Enrico logic
+
+/*
+Get Input is impleneted by 
+
+
+*/
+
+
+
 /** SWDIO/TMS I/O pin: Get Input.
 \return Current status of the SWDIO/TMS DAP hardware I/O pin.
 */
@@ -455,11 +467,25 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
 
 }
 
+
+
+
+
+
+
+
+//Functions to be changed as they are being used in SWD mode only for SWD connections
+
+
+
+
 /** SWDIO I/O pin: Get Input (used in SWD mode only).
 \return Current status of the SWDIO DAP hardware I/O pin.
 */
 __STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN      (void) {
   
+  //read pin input value
+
     return gpio_get(DAP_SWJ_SWDIO_TMS);
 
 }
@@ -469,7 +495,19 @@ __STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN      (void) {
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
 
-    gpio_put(DAP_SWJ_SWCLK_TMS, bit);
+  /*To implement this  Set Output
+
+    if bit =1
+    then 
+      OE         = 0
+
+    if bit =0
+    then  
+      OE         = 1
+  */
+
+
+
 
 }
 
@@ -479,8 +517,13 @@ called prior \ref PIN_SWDIO_OUT function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
 
-    gpio_set_dir(DAP_SWJ_SWCLK_TMS, GPIO_OUT); // set pin to output mode
-    gpio_put(DAP_SWJ_SWCLK_TMS, true); // Set pin output to high (also called high z mode)
+  // To implement this Output Enable
+  //set PU 1
+
+
+
+
+    
 
 }
 
@@ -490,9 +533,19 @@ called prior \ref PIN_SWDIO_IN function calls.
 */
 __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 
-    gpio_put(DAP_SWJ_SWCLK_TMS, false);
+//To implement Output Disable
+//Set  OE 0,PU 0
 
 }
+
+
+
+
+
+
+
+
+
 
 
 // TDI Pin I/O ---------------------------------------------
