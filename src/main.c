@@ -42,8 +42,8 @@ static uint8_t RxDataBuffer[CFG_TUD_HID_EP_BUFSIZE];
 
 #define THREADED 1
 
-#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 2)
-#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 1)
+#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 1)
+#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 2)
 
 
 
@@ -96,8 +96,7 @@ void usb_thread(void *ptr)
 int main(void) {
 
     probe_info("Welcome to jtagprobe!\n");
-    // Iniatalizing all functions except JTAG
-    //bi_decl_config();
+    DAP_Setup();   
     board_init();
     usb_serial_init();
     tusb_init();
