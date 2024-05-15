@@ -25,13 +25,14 @@
  *
  *---------------------------------------------------------------------------*/
 
-#define DAP_SWD                 1      
-#define DAP_JTAG                1
-#define DAP_JTAG_DEV_CNT        8U   
+ 
 
 
 #ifndef __DAP_H__
 #define __DAP_H__
+#define DAP_SWD                 1      
+#define DAP_JTAG                1
+#define DAP_JTAG_DEV_CNT        8U  
 
 #include "DAP_config.h"
 #include "board_pico_config.h"
@@ -154,6 +155,7 @@
 #define DAP_TRANSFER_APnDP              (1U<<0)
 #define DAP_TRANSFER_RnW                (1U<<1)
 #define DAP_TRANSFER_A2                 (1U<<2)
+
 #define DAP_TRANSFER_A3                 (1U<<3)
 #define DAP_TRANSFER_MATCH_VALUE        (1U<<4)
 #define DAP_TRANSFER_MATCH_MASK         (1U<<5)
