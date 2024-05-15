@@ -42,14 +42,14 @@ static uint8_t RxDataBuffer[CFG_TUD_HID_EP_BUFSIZE];
 
 #define THREADED 1
 
-#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 3)
-#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 2)
-#define JTAG_TASK_PRIO  (tskIDLE_PRIORITY + 1)
+#define TUD_TASK_PRIO  (tskIDLE_PRIORITY + 2)
+#define DAP_TASK_PRIO  (tskIDLE_PRIORITY + 1)
+
 
 
 //task handle
 
-TaskHandle_t dap_taskhandle, tud_taskhandle, jtag_taskhandle;
+TaskHandle_t dap_taskhandle, tud_taskhandle;
 
 
 
@@ -76,25 +76,6 @@ void usb_thread(void *ptr)
 }
 
 
-
-void jtag_thread(void *ptr)
-{
-   
-    while (1) { 
-    uint32_t idcode;
-    uint32_t request;
-
-        // Perform JTAG operation to read the IDCODE register
-        request = JTAG_BUILD_REQUEST(ID_DAP_Transfer | DAP_TRANSFER_RnW | DAP_TRANSFER_APnDP, ID_DAP_JTAG_IDCODE);
-        JTAG_Transfer(request, &idcode);
-
-        // Forward the IDCODE data to the USB HID interface
-        tud_hid_report(0, (uint8_t*)&idcode, sizeof(uint32_t));
-
-        // Delay for a short period to avoid busy-waiting
-        vTaskDelay(pdMS_TO_TICKS(10));
-    }
-}
 
 
 
@@ -133,10 +114,6 @@ int main(void) {
         xTaskCreate(dap_thread, "DAP", configMINIMAL_STACK_SIZE, NULL, DAP_TASK_PRIO, &dap_taskhandle);
         vTaskStartScheduler();
 
-
-        /*JTAG thread which is created*/
-        xTaskCreate(jtag_thread, "JTAG", configMINIMAL_STACK_SIZE, NULL, JTAG_TASK_PRIO, &jtag_taskhandle);
-        vTaskStartScheduler();
     }
 
     while (!THREADED) {
