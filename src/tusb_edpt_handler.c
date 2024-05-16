@@ -191,6 +191,12 @@ bool dap_edpt_xfer_cb(uint8_t __unused rhport, uint8_t ep_addr, xfer_result_t re
 
 void dap_thread(void *ptr)
 {
+	//check for the implementation of DAP_SWD and JTAG protocols
+
+
+
+
+
 	uint32_t n;
 	do
 	{
