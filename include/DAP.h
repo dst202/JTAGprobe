@@ -181,7 +181,7 @@
 
 
 // Debug Port Register Addresses
-#define DP_IDCODE                       0x00U   // IDCODE Register (SW Read only)
+#define DP_IDCODE                       0x0AU   // IDCODE Register (SW Read only)
 #define DP_ABORT                        0x00U   // Abort Register (SW Write only)
 #define DP_CTRL_STAT                    0x04U   // Control & Status
 #define DP_WCR                          0x04U   // Wire Control Register (SW Only)
