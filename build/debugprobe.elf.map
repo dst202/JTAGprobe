@@ -1637,9 +1637,9 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .text.xPortGetFreeHeapSize
                 0x0000000000000000       0x14 CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccMKTIFt.o
- .data          0x0000000000000000        0x0 /tmp/ccMKTIFt.o
- .bss           0x0000000000000000        0x0 /tmp/ccMKTIFt.o
+ .text          0x0000000000000000        0x0 /tmp/ccLQCusa.o
+ .data          0x0000000000000000        0x0 /tmp/ccLQCusa.o
+ .bss           0x0000000000000000        0x0 /tmp/ccLQCusa.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1903,7 +1903,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccMKTIFt.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccLQCusa.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3392,7 +3392,7 @@ LOAD CMakeFiles/debugprobe.dir/freertos/tasks.c.obj
 LOAD CMakeFiles/debugprobe.dir/freertos/timers.c.obj
 LOAD CMakeFiles/debugprobe.dir/home/teja/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 LOAD CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
-LOAD /tmp/ccMKTIFt.o
+LOAD /tmp/ccLQCusa.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3546,7 +3546,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000aec       0x2c CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .ARM.attributes
-                0x0000000000000b18       0x22 /tmp/ccMKTIFt.o
+                0x0000000000000b18       0x22 /tmp/ccLQCusa.o
  .ARM.attributes
                 0x0000000000000b3a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

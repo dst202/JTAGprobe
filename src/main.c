@@ -14,7 +14,6 @@
 #include "DAP.h"
 #include "board_pico_config.h"
 #include "DAP_config.h"
-#include "probe.h"
 
 
 
@@ -54,7 +53,6 @@ TaskHandle_t dap_taskhandle, tud_taskhandle;
 
 
 
-
 //USB thread to be written here
 
 void usb_thread(void *ptr)
@@ -74,8 +72,6 @@ void usb_thread(void *ptr)
             xTaskDelayUntil(&wake, 1);
     } while (1);
 }
-
-
 
 
 
