@@ -76,9 +76,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "../CMSIS_5/CMSIS/Core/Include"
-  "../include"
-  "../src"
+  "/home/teja/Pico/JTAGprobe/CMSIS_5/CMSIS/Core/Include"
+  "/home/teja/Pico/JTAGprobe/include"
+  "/home/teja/Pico/JTAGprobe/src"
   "/home/teja/Pico/pico-sdk/src/rp2_common/pico_multicore/include"
   "/home/teja/Pico/pico-sdk/src/common/pico_sync/include"
   "/home/teja/Pico/pico-sdk/src/rp2_common/hardware_sync/include"
@@ -125,8 +125,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/teja/Pico/pico-sdk/lib/tinyusb/hw"
   "/home/teja/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/home/teja/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
-  "../freertos/portable/ThirdParty/GCC/RP2040/include"
-  "../freertos/include"
+  "/home/teja/Pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/include"
+  "/home/teja/Pico/JTAGprobe/freertos/include"
   "/home/teja/Pico/pico-sdk/src/rp2_common/hardware_exception/include"
   )
 
