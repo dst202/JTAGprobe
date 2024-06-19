@@ -11,6 +11,7 @@ pico_sdk_init()
 
 add_executable(debugprobe
 
+        src/probe_config.c
         src/DAP.c
         src/get_serial.c
         src/JTAG_DP.c
