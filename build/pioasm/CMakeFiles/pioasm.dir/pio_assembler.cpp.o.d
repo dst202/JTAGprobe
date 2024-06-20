@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/pio_assembler.cpp.o: \
- /home/teja/Pico/pico-sdk/tools/pioasm/pio_assembler.cpp \
+ /home/teja/pico/pico-sdk/tools/pioasm/pio_assembler.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -136,7 +136,7 @@ CMakeFiles/pioasm.dir/pio_assembler.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/streambuf.tcc \
- /home/teja/Pico/pico-sdk/tools/pioasm/pio_assembler.h \
+ /home/teja/pico/pico-sdk/tools/pioasm/pio_assembler.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -144,7 +144,7 @@ CMakeFiles/pioasm.dir/pio_assembler.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/teja/Pico/pico-sdk/tools/pioasm/gen/parser.hpp \
+ /home/teja/pico/pico-sdk/tools/pioasm/gen/parser.hpp \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -159,7 +159,7 @@ CMakeFiles/pioasm.dir/pio_assembler.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/teja/Pico/pico-sdk/tools/pioasm/pio_types.h \
+ /home/teja/pico/pico-sdk/tools/pioasm/pio_types.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
@@ -184,8 +184,8 @@ CMakeFiles/pioasm.dir/pio_assembler.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/teja/Pico/pico-sdk/tools/pioasm/gen/location.h \
+ /home/teja/pico/pico-sdk/tools/pioasm/gen/location.h \
  /usr/include/c++/11/iostream \
- /home/teja/Pico/pico-sdk/tools/pioasm/gen/location.h \
+ /home/teja/pico/pico-sdk/tools/pioasm/gen/location.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/teja/Pico/pico-sdk/tools/pioasm/output_format.h
+ /home/teja/pico/pico-sdk/tools/pioasm/output_format.h

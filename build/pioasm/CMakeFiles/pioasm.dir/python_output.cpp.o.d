@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/python_output.cpp.o: \
- /home/teja/Pico/pico-sdk/tools/pioasm/python_output.cpp \
+ /home/teja/pico/pico-sdk/tools/pioasm/python_output.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/array \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -162,7 +162,7 @@ CMakeFiles/pioasm.dir/python_output.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/iostream \
- /home/teja/Pico/pico-sdk/tools/pioasm/output_format.h \
+ /home/teja/pico/pico-sdk/tools/pioasm/output_format.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -182,4 +182,4 @@ CMakeFiles/pioasm.dir/python_output.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/teja/Pico/pico-sdk/tools/pioasm/pio_disassembler.h
+ /home/teja/pico/pico-sdk/tools/pioasm/pio_disassembler.h

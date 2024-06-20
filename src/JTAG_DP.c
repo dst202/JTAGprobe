@@ -108,6 +108,8 @@ void JTAG_Sequence (uint32_t info, const uint8_t *tdi, uint8_t *tdo) {
       *tdo++ = (uint8_t)o_val;
     }
   }
+  gpio_put(PROBE_USB_CONNECTED_LED, 1);
+
 }
 
 
@@ -294,8 +296,10 @@ uint32_t JTAG_ReadIDCode (void) {
   JTAG_CYCLE_TCK();                         /* Update-DR */
   PIN_TMS_CLR();
   JTAG_CYCLE_TCK();                         /* Idle */
+  //gpio_put(PROBE_USB_CONNECTED_LED, 1);
 
   return (val);
+
 }
 
 

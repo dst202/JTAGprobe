@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

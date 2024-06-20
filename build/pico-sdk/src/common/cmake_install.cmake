@@ -1,4 +1,4 @@
-# Install script for directory: /home/teja/Pico/pico-sdk/src/common
+# Install script for directory: /home/teja/pico/pico-sdk/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
 
 endif()
 

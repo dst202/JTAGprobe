@@ -656,6 +656,8 @@ id_error:
 #endif
   *response = DAP_ERROR;
   return ((1U << 16) | 1U); 
+gpio_put(PROBE_USB_CONNECTED_LED, 0);
+
 }
 
 

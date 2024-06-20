@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/teja/Pico/pico-sdk/tools/elf2uf2
+source_dir=/home/teja/pico/pico-sdk/tools/elf2uf2
 work_dir=
 
