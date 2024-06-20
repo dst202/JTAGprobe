@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teja/Pico/JTAGprobe
+CMAKE_SOURCE_DIR = /home/teja/pico/JTAGprobe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teja/Pico/JTAGprobe/build
+CMAKE_BINARY_DIR = /home/teja/pico/JTAGprobe/build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -69,12 +69,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/teja/Pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/python3.10 /home/teja/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/python3.10 /home/teja/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/teja/Pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -87,10 +87,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
+	cd /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	cd /home/teja/Pico/JTAGprobe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teja/Pico/JTAGprobe /home/teja/Pico/pico-sdk/src/rp2_common/boot_stage2 /home/teja/Pico/JTAGprobe/build /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 /home/teja/Pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teja/pico/JTAGprobe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teja/pico/JTAGprobe /home/teja/pico/pico-sdk/src/rp2_common/boot_stage2 /home/teja/pico/JTAGprobe/build /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2 /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

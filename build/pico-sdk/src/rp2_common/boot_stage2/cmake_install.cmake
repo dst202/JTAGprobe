@@ -1,4 +1,4 @@
-# Install script for directory: /home/teja/Pico/pico-sdk/src/rp2_common/boot_stage2
+# Install script for directory: /home/teja/pico/pico-sdk/src/rp2_common/boot_stage2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

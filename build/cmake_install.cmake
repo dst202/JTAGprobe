@@ -1,4 +1,4 @@
-# Install script for directory: /home/teja/Pico/JTAGprobe
+# Install script for directory: /home/teja/pico/JTAGprobe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/teja/Pico/JTAGprobe/build/FREERTOS_KERNEL/cmake_install.cmake")
-  include("/home/teja/Pico/JTAGprobe/build/pico-sdk/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/FREERTOS_KERNEL/cmake_install.cmake")
+  include("/home/teja/pico/JTAGprobe/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/teja/Pico/JTAGprobe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/teja/pico/JTAGprobe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
