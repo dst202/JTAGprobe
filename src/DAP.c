@@ -77,7 +77,7 @@ typedef struct {
 
 
 
-         DAP_Data_t DAP_Data;           // DAP Data
+DAP_Data_t DAP_Data;           // DAP Data
         
 volatile uint8_t    DAP_TransferAbort;  // Transfer Abort Flag
 
@@ -219,6 +219,7 @@ static uint32_t DAP_HostStatus(const uint8_t *request, uint8_t *response) {
   }
 
   *response = DAP_OK;
+  
   return ((2U << 16) | 1U);
 }
 
@@ -248,6 +249,7 @@ static uint32_t DAP_Connect(const uint8_t *request, uint8_t *response) {
     case DAP_PORT_JTAG:
       DAP_Data.debug_port = DAP_PORT_JTAG;
       PORT_JTAG_SETUP();
+
       break;
 #endif
     default:
@@ -256,6 +258,8 @@ static uint32_t DAP_Connect(const uint8_t *request, uint8_t *response) {
   }
 
   *response = (uint8_t)port;
+
+
   return ((1U << 16) | 1U);
 }
 
@@ -576,7 +580,6 @@ static uint32_t DAP_JTAG_Sequence(const uint8_t *request, uint8_t *response) {
     }
 #endif
   }
-
   return ((request_count << 16) | response_count);
 }
 
@@ -656,7 +659,6 @@ id_error:
 #endif
   *response = DAP_ERROR;
   return ((1U << 16) | 1U); 
-gpio_put(PROBE_USB_CONNECTED_LED, 0);
 
 }
 

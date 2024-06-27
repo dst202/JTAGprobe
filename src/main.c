@@ -62,10 +62,10 @@ void usb_thread(void *ptr)
     do {
         tud_task();
 #ifdef PROBE_USB_CONNECTED_LED
-        if (!gpio_get(PROBE_USB_CONNECTED_LED) && tud_ready())
+        /*if (!gpio_get(PROBE_USB_CONNECTED_LED) && tud_ready())
             gpio_put(PROBE_USB_CONNECTED_LED, 0);
         else
-            gpio_put(PROBE_USB_CONNECTED_LED, 0);
+            gpio_put(PROBE_USB_CONNECTED_LED, 0); */
 #endif
         // Go to sleep for up to a tick if nothing to do
         if (!tud_task_event_ready())
@@ -81,7 +81,7 @@ void usb_thread(void *ptr)
 #define tud_vendor_flush(x) ((void)0)
 #endif
 
-
+//test code for code execution
 
 
 
@@ -91,6 +91,10 @@ void usb_thread(void *ptr)
 
 int main(void) {
 
+
+    gpio_put(PROBE_USB_CONNECTED_LED, 0);
+
+
     probe_info("Welcome to jtagprobe!\n");
     DAP_Setup();   
     board_init();
@@ -98,6 +102,8 @@ int main(void) {
     tusb_init();
     stdio_uart_init();
 
+
+   
 
     //led_init removed for the sake of simiplicity
     //led_init();
@@ -109,11 +115,13 @@ int main(void) {
         xTaskCreate(dap_thread, "DAP", configMINIMAL_STACK_SIZE, NULL, DAP_TASK_PRIO, &dap_taskhandle);
         vTaskStartScheduler();
 
+
     }
 
     while (!THREADED) {
         tud_task();
 
+                    
 
 
 

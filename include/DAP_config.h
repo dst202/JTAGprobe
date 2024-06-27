@@ -302,13 +302,12 @@ of the same I/O port. The following SWDIO I/O Pin functions are provided:
 
 
  // DAP SWJ Pins
-#define DAP_SWJ_SWCLK_TCK               0       // SWCLK/TCK
-#define DAP_SWJ_SWDIO_TMS               1       // SWDIO/TMS
-#define DAP_SWJ_TDI                     2       // TDI
-#define DAP_SWJ_TDO                     3       // TDO
-#define DAP_SWJ_nTRST                   5       // nTRST
+#define DAP_SWJ_SWCLK_TCK               2      // SWCLK/TCK
+#define DAP_SWJ_SWDIO_TMS               3       // SWDIO/TMS
+#define DAP_SWJ_TDI                     4       // TDI
+#define DAP_SWJ_TDO                     5       // TDO
+#define DAP_SWJ_nTRST                   6       // nTRST
 #define DAP_SWJ_nRESET                  7       // nRESET
-
 
 
 
@@ -319,6 +318,8 @@ __STATIC_INLINE void set_pin_high_z(uint pin) {
 
     gpio_set_dir(pin, GPIO_IN); // Set the pin as input
     gpio_disable_pulls(pin);    // Disable pull-up and pull-down resistors
+   
+
 }
 
 
@@ -363,13 +364,12 @@ __STATIC_INLINE void PORT_JTAG_SETUP (void) {
 
 
   gpio_set_dir(DAP_SWJ_TDO,false);
+  
+  gpio_put(PROBE_USB_CONNECTED_LED, 1);
+
 
 
 }
-
-
-
-
 
 
 
