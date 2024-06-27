@@ -202,6 +202,7 @@ void dap_thread(void *ptr)
 	{
 		while(USBRequestBuffer.rptr != USBRequestBuffer.wptr)
 		{
+			 
 			/*
 			 * Atomic command support - buffer QueueCommands, but don't process them
 			 * until a non-QueueCommands packet is seen.

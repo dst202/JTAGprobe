@@ -138,14 +138,14 @@
 #define DAP_PORT_SWD                    1U      // SWD Port (SWCLK, SWDIO) + nRESET
 #define DAP_PORT_JTAG                   2U      // JTAG Port (TCK, TMS, TDI, TDO, nTRST) + nRESET
 
-// DAP SWJ Pins
-#define DAP_SWJ_SWCLK_TCK               0       // SWCLK/TCK
-#define DAP_SWJ_SWDIO_TMS               1       // SWDIO/TMS
-#define DAP_SWJ_TDI                     2       // TDI
-#define DAP_SWJ_TDO                     3       // TDO
-#define DAP_SWJ_nTRST                   5       // nTRST
-#define DAP_SWJ_nRESET                  7       // nRESET
 
+// DAP SWJ Pins
+#define DAP_SWJ_SWCLK_TCK               2       // SWCLK/TCK
+#define DAP_SWJ_SWDIO_TMS               3       // SWDIO/TMS
+#define DAP_SWJ_TDI                     4       // TDI
+#define DAP_SWJ_TDO                     5       // TDO
+#define DAP_SWJ_nTRST                   6       // nTRST
+#define DAP_SWJ_nRESET                  7       // nRESET
 
 
 
