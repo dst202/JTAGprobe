@@ -365,7 +365,6 @@ __STATIC_INLINE void PORT_JTAG_SETUP (void) {
 
   gpio_set_dir(DAP_SWJ_TDO,false);
   
-  gpio_put(PROBE_USB_CONNECTED_LED, 1);
 
 
 
