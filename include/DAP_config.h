@@ -68,7 +68,7 @@ This information includes:
 
 /// Indicate that Serial Wire Debug (SWD) communication mode is available at the Debug Access Port.
 /// This information is returned by the command \ref DAP_Info as part of <b>Capabilities</b>.
-#define DAP_SWD                 0               ///< SWD Mode:  1 = available, 0 = not available.
+#define DAP_SWD                 1               ///< SWD Mode:  1 = available, 0 = not available.
 
 /// Indicate that JTAG communication mode is available at the Debug Port.
 /// This information is returned by the command \ref DAP_Info as part of <b>Capabilities</b>.
@@ -381,14 +381,14 @@ Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
 */
 __STATIC_INLINE void PORT_SWD_SETUP (void) {
 
-  gpio_set_dir(DAP_SWJ_SWCLK_TCK,true);
+  gpio_set_dir(DAP_SWJ_SWCLK_TCK, GPIO_OUT);
   gpio_put(DAP_SWJ_SWCLK_TCK, true);
 
-  gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
-  gpio_put(DAP_SWJ_SWDIO_TMS, true);
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS, GPIO_IN);
+  gpio_put(DAP_SWJ_SWDIO_TMS, false);
 
-  gpio_set_dir(DAP_SWJ_nRESET,true);
-  gpio_put(DAP_SWJ_nRESET, true);
+  gpio_set_dir(DAP_SWJ_nRESET, GPIO_IN);
+  gpio_put(DAP_SWJ_nRESET, false);
 
   set_pin_high_z(DAP_SWJ_TDI);
   set_pin_high_z(DAP_SWJ_nTRST);
