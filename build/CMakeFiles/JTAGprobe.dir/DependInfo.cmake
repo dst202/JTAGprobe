@@ -132,9 +132,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj.d"
-  "/home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj.d"
-  "/home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj.d"
   "/home/teja/pico/JTAGprobe/freertos/croutine.c" "CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj.d"
   "/home/teja/pico/JTAGprobe/freertos/event_groups.c" "CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj.d"
   "/home/teja/pico/JTAGprobe/freertos/list.c" "CMakeFiles/JTAGprobe.dir/freertos/list.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/freertos/list.c.obj.d"
@@ -204,7 +201,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "/home/teja/pico/JTAGprobe/src/DAP.c" "CMakeFiles/JTAGprobe.dir/src/DAP.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/DAP.c.obj.d"
+  "/home/teja/pico/JTAGprobe/src/DAP_vendor.c" "CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj.d"
   "/home/teja/pico/JTAGprobe/src/JTAG_DP.c" "CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.obj.d"
+  "/home/teja/pico/JTAGprobe/src/SWO.c" "CMakeFiles/JTAGprobe.dir/src/SWO.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/SWO.c.obj.d"
+  "/home/teja/pico/JTAGprobe/src/SW_DP.c" "CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj.d"
   "/home/teja/pico/JTAGprobe/src/get_serial.c" "CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj.d"
   "/home/teja/pico/JTAGprobe/src/main.c" "CMakeFiles/JTAGprobe.dir/src/main.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/main.c.obj.d"
   "/home/teja/pico/JTAGprobe/src/tusb_edpt_handler.c" "CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj" "gcc" "CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj.d"
