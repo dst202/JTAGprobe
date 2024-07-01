@@ -133,7 +133,7 @@
 #define DAP_TARGET_RUNNING              1U
 
 // DAP Port
-#define DAP_PORT_AUTODETECT             1U      // Autodetect Port
+#define DAP_PORT_AUTODETECT             2U      // Autodetect Port
 #define DAP_PORT_DISABLED               0U      // Port Disabled (I/O pins in High-Z)
 #define DAP_PORT_SWD                    1U      // SWD Port (SWCLK, SWDIO) + nRESET
 #define DAP_PORT_JTAG                   2U      // JTAG Port (TCK, TMS, TDI, TDO, nTRST) + nRESET

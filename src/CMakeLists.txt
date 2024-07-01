@@ -11,12 +11,11 @@ pico_sdk_init()
 
 add_executable(JTAGprobe
 
+        #src/probe_config.c
         src/DAP.c
         src/get_serial.c
         src/JTAG_DP.c
-        src/SW_DP.c
-        src/SWO.c
-        src/DAP_vendor.c
+        #src/SW_DP.c
         src/main.c
         src/usb_descriptors.c
         src/tusb_edpt_handler.c
@@ -26,9 +25,9 @@ add_executable(JTAGprobe
 
 target_sources(JTAGprobe PRIVATE
         
-        #CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
-        #CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
-        #CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
+        CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
+        CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
+        CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
         )
 
 target_include_directories(JTAGprobe PRIVATE

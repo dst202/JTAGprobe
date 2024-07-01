@@ -233,78 +233,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.obj: CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.obj
-
-# target to build an object file
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.i: CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.i
-
-# target to preprocess a source file
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.s: CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.s
-
-# target to generate assembly for a file
-CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.obj: CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.obj
-
-# target to build an object file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.i: CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.i
-
-# target to preprocess a source file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.s: CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.s
-
-# target to generate assembly for a file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.obj: CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.obj
-
-# target to build an object file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.i: CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.i
-
-# target to preprocess a source file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i
-
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.s: CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.s
-
-# target to generate assembly for a file
-CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s
-.PHONY : CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s
-
 freertos/croutine.obj: freertos/croutine.c.obj
 .PHONY : freertos/croutine.obj
 
@@ -2073,6 +2001,30 @@ src/DAP.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/DAP.c.s
 .PHONY : src/DAP.c.s
 
+src/DAP_vendor.obj: src/DAP_vendor.c.obj
+.PHONY : src/DAP_vendor.obj
+
+# target to build an object file
+src/DAP_vendor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj
+.PHONY : src/DAP_vendor.c.obj
+
+src/DAP_vendor.i: src/DAP_vendor.c.i
+.PHONY : src/DAP_vendor.i
+
+# target to preprocess a source file
+src/DAP_vendor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.i
+.PHONY : src/DAP_vendor.c.i
+
+src/DAP_vendor.s: src/DAP_vendor.c.s
+.PHONY : src/DAP_vendor.s
+
+# target to generate assembly for a file
+src/DAP_vendor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.s
+.PHONY : src/DAP_vendor.c.s
+
 src/JTAG_DP.obj: src/JTAG_DP.c.obj
 .PHONY : src/JTAG_DP.obj
 
@@ -2096,6 +2048,54 @@ src/JTAG_DP.s: src/JTAG_DP.c.s
 src/JTAG_DP.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.s
 .PHONY : src/JTAG_DP.c.s
+
+src/SWO.obj: src/SWO.c.obj
+.PHONY : src/SWO.obj
+
+# target to build an object file
+src/SWO.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SWO.c.obj
+.PHONY : src/SWO.c.obj
+
+src/SWO.i: src/SWO.c.i
+.PHONY : src/SWO.i
+
+# target to preprocess a source file
+src/SWO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SWO.c.i
+.PHONY : src/SWO.c.i
+
+src/SWO.s: src/SWO.c.s
+.PHONY : src/SWO.s
+
+# target to generate assembly for a file
+src/SWO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SWO.c.s
+.PHONY : src/SWO.c.s
+
+src/SW_DP.obj: src/SW_DP.c.obj
+.PHONY : src/SW_DP.obj
+
+# target to build an object file
+src/SW_DP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
+.PHONY : src/SW_DP.c.obj
+
+src/SW_DP.i: src/SW_DP.c.i
+.PHONY : src/SW_DP.i
+
+# target to preprocess a source file
+src/SW_DP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.i
+.PHONY : src/SW_DP.c.i
+
+src/SW_DP.s: src/SW_DP.c.s
+.PHONY : src/SW_DP.s
+
+# target to generate assembly for a file
+src/SW_DP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.s
+.PHONY : src/SW_DP.c.s
 
 src/get_serial.obj: src/get_serial.c.obj
 .PHONY : src/get_serial.obj
@@ -2210,15 +2210,6 @@ help:
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 	@echo "... JTAGprobe"
 	@echo "... bs2_default"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.obj"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.i"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.s"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.obj"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.i"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.s"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.obj"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.i"
-	@echo "... CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.s"
 	@echo "... freertos/croutine.obj"
 	@echo "... freertos/croutine.i"
 	@echo "... freertos/croutine.s"
@@ -2440,9 +2431,18 @@ help:
 	@echo "... src/DAP.obj"
 	@echo "... src/DAP.i"
 	@echo "... src/DAP.s"
+	@echo "... src/DAP_vendor.obj"
+	@echo "... src/DAP_vendor.i"
+	@echo "... src/DAP_vendor.s"
 	@echo "... src/JTAG_DP.obj"
 	@echo "... src/JTAG_DP.i"
 	@echo "... src/JTAG_DP.s"
+	@echo "... src/SWO.obj"
+	@echo "... src/SWO.i"
+	@echo "... src/SWO.s"
+	@echo "... src/SW_DP.obj"
+	@echo "... src/SW_DP.i"
+	@echo "... src/SW_DP.s"
 	@echo "... src/get_serial.obj"
 	@echo "... src/get_serial.i"
 	@echo "... src/get_serial.s"

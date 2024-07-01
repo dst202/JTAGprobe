@@ -1,5 +1,5 @@
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj: \
- /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c \
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj: \
+ /home/teja/pico/JTAGprobe/src/SW_DP.c \
  /home/teja/pico/JTAGprobe/include/DAP_config.h \
  /home/teja/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \

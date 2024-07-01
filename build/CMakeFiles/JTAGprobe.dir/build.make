@@ -111,10 +111,52 @@ CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/src/JTAG_DP.c -o CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.s
 
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj: /home/teja/pico/JTAGprobe/src/SW_DP.c
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj -MF CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj -c /home/teja/pico/JTAGprobe/src/SW_DP.c
+
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/src/SW_DP.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/src/SW_DP.c > CMakeFiles/JTAGprobe.dir/src/SW_DP.c.i
+
+CMakeFiles/JTAGprobe.dir/src/SW_DP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/src/SW_DP.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/src/SW_DP.c -o CMakeFiles/JTAGprobe.dir/src/SW_DP.c.s
+
+CMakeFiles/JTAGprobe.dir/src/SWO.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/src/SWO.c.obj: /home/teja/pico/JTAGprobe/src/SWO.c
+CMakeFiles/JTAGprobe.dir/src/SWO.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JTAGprobe.dir/src/SWO.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/SWO.c.obj -MF CMakeFiles/JTAGprobe.dir/src/SWO.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/SWO.c.obj -c /home/teja/pico/JTAGprobe/src/SWO.c
+
+CMakeFiles/JTAGprobe.dir/src/SWO.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/src/SWO.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/src/SWO.c > CMakeFiles/JTAGprobe.dir/src/SWO.c.i
+
+CMakeFiles/JTAGprobe.dir/src/SWO.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/src/SWO.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/src/SWO.c -o CMakeFiles/JTAGprobe.dir/src/SWO.c.s
+
+CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj: /home/teja/pico/JTAGprobe/src/DAP_vendor.c
+CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj -MF CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj -c /home/teja/pico/JTAGprobe/src/DAP_vendor.c
+
+CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/src/DAP_vendor.c > CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.i
+
+CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/src/DAP_vendor.c -o CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.s
+
 CMakeFiles/JTAGprobe.dir/src/main.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/src/main.c.obj: /home/teja/pico/JTAGprobe/src/main.c
 CMakeFiles/JTAGprobe.dir/src/main.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JTAGprobe.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/JTAGprobe.dir/src/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/main.c.obj -MF CMakeFiles/JTAGprobe.dir/src/main.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/main.c.obj -c /home/teja/pico/JTAGprobe/src/main.c
 
 CMakeFiles/JTAGprobe.dir/src/main.c.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/JTAGprobe.dir/src/main.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj: /home/teja/pico/JTAGprobe/src/usb_descriptors.c
 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj -MF CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj -c /home/teja/pico/JTAGprobe/src/usb_descriptors.c
 
 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj: /home/teja/pico/JTAGprobe/src/tusb_edpt_handler.c
 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj -MF CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj.d -o CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj -c /home/teja/pico/JTAGprobe/src/tusb_edpt_handler.c
 
 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.i: cmake_force
@@ -152,48 +194,6 @@ CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.i: cmake_force
 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/src/tusb_edpt_handler.c -o CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.s
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj: /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj -MF CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj.d -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj -c /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c > CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.i
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.s
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj: /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj -MF CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj.d -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj -c /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c > CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.i
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.s
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj: /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj -MF CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj.d -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj -c /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c > CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.i
-
-CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/JTAGprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c -o CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
@@ -1309,12 +1309,12 @@ JTAGprobe_OBJECTS = \
 "CMakeFiles/JTAGprobe.dir/src/DAP.c.obj" \
 "CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj" \
 "CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.obj" \
+"CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj" \
+"CMakeFiles/JTAGprobe.dir/src/SWO.c.obj" \
+"CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj" \
 "CMakeFiles/JTAGprobe.dir/src/main.c.obj" \
 "CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj" \
 "CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj" \
-"CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj" \
-"CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj" \
-"CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
@@ -1402,12 +1402,12 @@ JTAGprobe_EXTERNAL_OBJECTS =
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/SWO.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/main.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
