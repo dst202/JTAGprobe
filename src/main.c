@@ -61,9 +61,10 @@ void usb_thread(void *ptr)
     wake = xTaskGetTickCount();
     do {
         tud_task();
-#ifdef PROBE_USB_CONNECTED_LED
+
+  #ifdef PROBE_USB_CONNECTED_LED
         if (!gpio_get(PROBE_USB_CONNECTED_LED) && tud_ready())
-            gpio_put(PROBE_USB_CONNECTED_LED, 1);
+            gpio_put(PROBE_USB_CONNECTED_LED, 0);
         else
             gpio_put(PROBE_USB_CONNECTED_LED, 0);
 #endif

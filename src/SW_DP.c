@@ -27,6 +27,10 @@
 
 #include "DAP_config.h"
 #include "DAP.h"
+#include "board_pico_config.h"
+
+//delay 
+#define PIN_DELAY() PIN_DELAY_SLOW(DAP_Data.clock_delay)
 
 
 // SW Macros
@@ -54,7 +58,6 @@
   PIN_SWCLK_SET();                      \
   PIN_DELAY()
 
-#define PIN_DELAY() PIN_DELAY_SLOW(DAP_Data.clock_delay)
 
 
 // Generate SWJ Sequence
@@ -81,6 +84,8 @@ void SWJ_Sequence (uint32_t count, const uint8_t *data) {
     SW_CLOCK_CYCLE();
     val >>= 1;
     n--;
+
+
   }
 }
 #endif
@@ -122,6 +127,8 @@ void SWD_Sequence (uint32_t info, const uint8_t *swdo, uint8_t *swdi) {
       }
     }
   }
+        gpio_put(PROBE_USB_CONNECTED_LED, 1);
+
 }
 #endif
 
