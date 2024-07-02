@@ -394,6 +394,8 @@ __STATIC_INLINE void PORT_SWD_SETUP (void) {
   set_pin_high_z(DAP_SWJ_nTRST);
 
 
+
+
 }
 
 /** Disable JTAG/SWD I/O Pins.
@@ -527,9 +529,6 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
         gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
 
     }
-
-
-
 }
 
 /** SWDIO I/O pin: Switch to Output mode (used in SWD mode only).
@@ -556,7 +555,7 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 //Set  OE 0,PU 0
 
   gpio_set_dir(DAP_SWJ_SWDIO_TMS,false);
-  gpio_set_pulls(DAP_SWJ_SWDIO_TMS,false,false);
+  gpio_set_pulls(DAP_SWJ_SWDIO_TMS,true,false);
 
 }
 

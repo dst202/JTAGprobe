@@ -95,10 +95,6 @@ Discarded input sections
                 0x0000000000000000       0x1c CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .text.buffer_empty
                 0x0000000000000000       0x14 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
- .rodata.str1.4
-                0x0000000000000000      0x1f0 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
- .data.dap_cmd_string
-                0x0000000000000000      0x200 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -572,34 +568,14 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_buffer
                 0x0000000000000000        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_null
-                0x0000000000000000        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_rev
-                0x0000000000000000       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ntoa_format
-                0x0000000000000000      0x1cc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_fct
-                0x0000000000000000       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000000000000      0x44c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._ftoa.str1.4
-                0x0000000000000000       0x15 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000000000000      0x398 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._vsnprintf
-                0x0000000000000000      0xb04 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._vsnprintf
-                0x0000000000000000      0x1e0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
                 0x0000000000000000       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
                 0x0000000000000000       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_vsnprintf
                 0x0000000000000000       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text.vfctprintf
-                0x0000000000000000       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_printf
                 0x0000000000000000       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata.pow10.0
-                0x0000000000000000       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.clzsi    0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -620,8 +596,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .data          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .text.__wrap___aeabi_idiv
-                0x0000000000000000       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_s64s64_rem
                 0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_u64u64_rem
@@ -633,31 +607,11 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.pop_r8_r11
                 0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_darithmetic
-                0x0000000000000000       0x80 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_cdcmple
-                0x0000000000000000       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_dcmpeq
                 0x0000000000000000       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmplt
-                0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmple
-                0x0000000000000000       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpge
-                0x0000000000000000       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpgt
-                0x0000000000000000        0xa CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpun
-                0x0000000000000000       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_ui2d
                 0x0000000000000000       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_i2d
-                0x0000000000000000       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2iz
-                0x0000000000000000       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2int
-                0x0000000000000000       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2uiz
                 0x0000000000000000       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.fix2double
                 0x0000000000000000       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -781,14 +735,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .data          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.__wrap___aeabi_dsub
-                0x0000000000000000       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dadd_shim
-                0x0000000000000000      0x15c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dmul_shim
-                0x0000000000000000      0x15c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.ddiv_shim
-                0x0000000000000000      0x1b0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dsqrt_shim
                 0x0000000000000000      0x1a8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dcordic_vec_step
@@ -797,18 +743,12 @@ Discarded input sections
                 0x0000000000000000       0x76 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int_shim
                 0x0000000000000000        0xe CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2uint_shim
-                0x0000000000000000        0xe CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int64_shim
                 0x0000000000000000       0x1a CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2uint64_shim
-                0x0000000000000000       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2float_shim
                 0x0000000000000000       0x5c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.x2double_shims
                 0x0000000000000000       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dunpacks
-                0x0000000000000000       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dreduce  0x0000000000000000       0x82 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dtan_shim
                 0x0000000000000000       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1027,8 +967,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_buffered_printer
-                0x0000000000000000       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
                 0x0000000000000000       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_end
@@ -1046,10 +984,6 @@ Discarded input sections
  .text._isatty  0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
                 0x0000000000000000       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.__wrap_vprintf
-                0x0000000000000000       0xd8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.__wrap_printf
-                0x0000000000000000       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_init_all
                 0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
@@ -1643,9 +1577,9 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .text.xPortGetFreeHeapSize
                 0x0000000000000000       0x14 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccJtWPfp.o
- .data          0x0000000000000000        0x0 /tmp/ccJtWPfp.o
- .bss           0x0000000000000000        0x0 /tmp/ccJtWPfp.o
+ .text          0x0000000000000000        0x0 /tmp/ccwJBGWG.o
+ .data          0x0000000000000000        0x0 /tmp/ccwJBGWG.o
+ .bss           0x0000000000000000        0x0 /tmp/ccwJBGWG.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1909,7 +1843,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccJtWPfp.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccwJBGWG.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2021,7 +1955,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.text           0x00000000200000c0     0xa220 load address 0x0000000010000304
+.text           0x00000000200000c0     0xc108 load address 0x0000000010000304
                 0x00000000200000c0                __ram_text_start__ = .
  *(.init)
  .init          0x00000000200000c0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
@@ -2058,730 +1992,827 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020002904       0x68 CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
                 0x0000000020002904                SWJ_Sequence
  .text.SWD_Sequence
-                0x000000002000296c      0x2e4 CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
+                0x000000002000296c      0x2f0 CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
                 0x000000002000296c                SWD_Sequence
  .text.SWD_Transfer
-                0x0000000020002c50      0x6cc CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
-                0x0000000020002c50                SWD_Transfer
+                0x0000000020002c5c      0x6cc CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
+                0x0000000020002c5c                SWD_Transfer
  .text.DAP_ProcessVendorCommand
-                0x000000002000331c        0xc CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj
-                0x000000002000331c                DAP_ProcessVendorCommand
+                0x0000000020003328        0xc CMakeFiles/JTAGprobe.dir/src/DAP_vendor.c.obj
+                0x0000000020003328                DAP_ProcessVendorCommand
  .text.usb_thread
-                0x0000000020003328       0x54 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x0000000020003328                usb_thread
+                0x0000000020003334       0x48 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003334                usb_thread
  .text.startup.main
-                0x000000002000337c       0x70 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x000000002000337c       0x84 CMakeFiles/JTAGprobe.dir/src/main.c.obj
                 0x000000002000337c                main
  .text.tud_hid_get_report_cb
-                0x00000000200033ec        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x00000000200033ec                tud_hid_get_report_cb
+                0x0000000020003400        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003400                tud_hid_get_report_cb
  .text.tud_hid_set_report_cb
-                0x00000000200033f0       0x2c CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x00000000200033f0                tud_hid_set_report_cb
+                0x0000000020003404       0x2c CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003404                tud_hid_set_report_cb
  .text.tud_vendor_control_xfer_cb
-                0x000000002000341c       0x54 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x000000002000341c                tud_vendor_control_xfer_cb
+                0x0000000020003430       0x54 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003430                tud_vendor_control_xfer_cb
  .text.vApplicationTickHook
-                0x0000000020003470        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x0000000020003470                vApplicationTickHook
+                0x0000000020003484        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003484                vApplicationTickHook
  .text.vApplicationStackOverflowHook
-                0x0000000020003474       0x10 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x0000000020003474                vApplicationStackOverflowHook
+                0x0000000020003488       0x10 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003488                vApplicationStackOverflowHook
  .text.vApplicationMallocFailedHook
-                0x0000000020003484        0xc CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x0000000020003484                vApplicationMallocFailedHook
+                0x0000000020003498        0xc CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020003498                vApplicationMallocFailedHook
  .text.tud_descriptor_device_cb
-                0x0000000020003490        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x0000000020003490                tud_descriptor_device_cb
+                0x00000000200034a4        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x00000000200034a4                tud_descriptor_device_cb
  .text.tud_hid_descriptor_report_cb
-                0x0000000020003498        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x0000000020003498                tud_hid_descriptor_report_cb
+                0x00000000200034ac        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x00000000200034ac                tud_hid_descriptor_report_cb
  .text.tud_descriptor_configuration_cb
-                0x00000000200034a0       0x10 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x00000000200034a0                tud_descriptor_configuration_cb
+                0x00000000200034b4       0x10 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x00000000200034b4                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x00000000200034b0       0x80 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x00000000200034b0                tud_descriptor_string_cb
+                0x00000000200034c4       0x80 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x00000000200034c4                tud_descriptor_string_cb
  .text.tud_descriptor_bos_cb
-                0x0000000020003530        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x0000000020003530                tud_descriptor_bos_cb
+                0x0000000020003544        0x8 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x0000000020003544                tud_descriptor_bos_cb
  .text.dap_edpt_init
-                0x0000000020003538        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x0000000020003538                dap_edpt_init
+                0x000000002000354c        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000354c                dap_edpt_init
  .text.dap_edpt_reset
-                0x000000002000353c        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x000000002000353c                dap_edpt_reset
+                0x0000000020003550        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020003550                dap_edpt_reset
  .text.dap_edpt_control_xfer_cb
-                0x0000000020003540        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x0000000020003540                dap_edpt_control_xfer_cb
+                0x0000000020003554        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020003554                dap_edpt_control_xfer_cb
  .text.dap_edpt_open
-                0x0000000020003544       0xb0 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x0000000020003544                dap_edpt_open
+                0x0000000020003558       0xb0 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020003558                dap_edpt_open
  .text.dap_edpt_xfer_cb
-                0x00000000200035f4       0xa8 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x00000000200035f4                dap_edpt_xfer_cb
+                0x0000000020003608       0xa8 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020003608                dap_edpt_xfer_cb
  .text.dap_thread
-                0x000000002000369c      0x184 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x000000002000369c                dap_thread
+                0x00000000200036b0      0x224 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x00000000200036b0                dap_thread
  .text.usbd_app_driver_get_cb
-                0x0000000020003820        0xc CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x0000000020003820                usbd_app_driver_get_cb
+                0x00000000200038d4        0xc CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x00000000200038d4                usbd_app_driver_get_cb
  .text.lock_init
-                0x000000002000382c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x000000002000382c                lock_init
+                0x00000000200038e0       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000000200038e0                lock_init
  .text.mutex_init
-                0x000000002000383c       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000383c                mutex_init
+                0x00000000200038f0       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000200038f0                mutex_init
  .text.recursive_mutex_init
-                0x0000000020003858       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000020003858                recursive_mutex_init
+                0x000000002000390c       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000390c                recursive_mutex_init
  .text.critical_section_init
-                0x0000000020003878       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000020003878                critical_section_init
+                0x000000002000392c       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x000000002000392c                critical_section_init
  .text.timer_pool_entry_comparator
-                0x0000000020003898       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000020003898                timer_pool_entry_comparator
+                0x000000002000394c       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000394c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x00000000200038cc       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003980       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000200038f0      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200039a4      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000200039f0      0x1bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003aa4      0x1bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000020003bac       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000020003bac                alarm_pool_init_default
+                0x0000000020003c60       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003c60                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000020003c18        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000020003c18                alarm_pool_get_default
+                0x0000000020003ccc        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003ccc                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000020003c20      0x178 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000020003c20                alarm_pool_add_alarm_at
+                0x0000000020003cd4      0x178 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003cd4                alarm_pool_add_alarm_at
  .text.best_effort_wfe_or_timeout
-                0x0000000020003d98       0xd4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000020003d98                best_effort_wfe_or_timeout
+                0x0000000020003e4c       0xd4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003e4c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000020003e6c       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020003f20       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000020003f28       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020003f28                hardware_alarm_claim
+                0x0000000020003fdc       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020003fdc                hardware_alarm_claim
  .text.time_us_64
-                0x0000000020003f40       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020003f40                time_us_64
+                0x0000000020003ff4       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020003ff4                time_us_64
  .text.busy_wait_us
-                0x0000000020003f54       0x54 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020003f54                busy_wait_us
+                0x0000000020004008       0x54 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020004008                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x0000000020003fa8       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020003fa8                hardware_alarm_set_callback
+                0x000000002000405c       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000405c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000020004034       0xd4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020004034                hardware_alarm_set_target
+                0x00000000200040e8       0xd4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200040e8                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000020004108       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000020004108                hardware_alarm_cancel
+                0x00000000200041bc       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200041bc                hardware_alarm_cancel
  .text.running_on_fpga
-                0x0000000020004144       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000020004144                running_on_fpga
+                0x00000000200041f8       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000000200041f8                running_on_fpga
  .text.rp2040_chip_version
-                0x0000000020004154        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000020004154                rp2040_chip_version
+                0x0000000020004208        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000020004208                rp2040_chip_version
  .text.hw_claim_or_assert
-                0x0000000020004160       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000020004160                hw_claim_or_assert
+                0x0000000020004214       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000020004214                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x00000000200041a4       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000200041a4                hw_claim_unused_from_range
+                0x0000000020004258       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000020004258                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x0000000020004240       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000020004240                spin_locks_reset
+                0x00000000200042f4       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000200042f4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x000000002000425c       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x000000002000425c                next_striped_spin_lock_num
+                0x0000000020004310       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000020004310                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x0000000020004274       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000020004274                spin_lock_claim_unused
+                0x0000000020004328       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000020004328                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x0000000020004294       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000020004294                irq_set_enabled
+                0x0000000020004348       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020004348                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x00000000200042b8       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000200042b8                irq_get_vtable_handler
+                0x000000002000436c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000002000436c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000200042c8       0x54 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000200042c8                irq_set_exclusive_handler
+                0x000000002000437c       0x54 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000002000437c                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x000000002000431c      0x1e8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000002000431c                irq_add_shared_handler
+                0x00000000200043d0      0x1e8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000200043d0                irq_add_shared_handler
  .text.irq_remove_handler
-                0x0000000020004504      0x1b0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000020004504                irq_remove_handler
+                0x00000000200045b8      0x1b0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000200045b8                irq_remove_handler
  .text.irq_set_priority
-                0x00000000200046b4       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000200046b4                irq_set_priority
+                0x0000000020004768       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020004768                irq_set_priority
  .text.irq_add_tail_to_free_list
-                0x00000000200046dc       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000200046dc                irq_add_tail_to_free_list
+                0x0000000020004790       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020004790                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000020004790       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000020004790                irq_init_priorities
+                0x0000000020004844       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020004844                irq_init_priorities
  .text.ph_merge_nodes
-                0x00000000200047b4       0x68 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000020004868       0x68 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x000000002000481c       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000002000481c                ph_post_alloc_init
+                0x00000000200048d0       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000200048d0                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000020004858       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000020004858                ph_merge_two_pass
+                0x000000002000490c       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000002000490c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000200048e8      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000002000499c      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000200049e8      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000200049e8                ph_remove_head
+                0x0000000020004a9c      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000020004a9c                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000020004aec       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000020004aec                ph_remove_and_free_node
+                0x0000000020004ba0       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000020004ba0                ph_remove_and_free_node
  .text.gpio_set_function
-                0x0000000020004b68       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004b68                gpio_set_function
+                0x0000000020004c1c       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004c1c                gpio_set_function
  .text.gpio_get_function
-                0x0000000020004b98       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004b98                gpio_get_function
+                0x0000000020004c4c       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004c4c                gpio_get_function
  .text.gpio_set_pulls
-                0x0000000020004bac       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004bac                gpio_set_pulls
+                0x0000000020004c60       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004c60                gpio_set_pulls
  .text.gpio_set_inover
-                0x0000000020004bdc       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004bdc                gpio_set_inover
+                0x0000000020004c90       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004c90                gpio_set_inover
  .text.gpio_set_oeover
-                0x0000000020004c00       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004c00                gpio_set_oeover
+                0x0000000020004cb4       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004cb4                gpio_set_oeover
  .text.gpio_init
-                0x0000000020004c24       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000020004c24                gpio_init
+                0x0000000020004cd8       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000020004cd8                gpio_init
  .text.uart_init
-                0x0000000020004c60      0x188 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000020004c60                uart_init
+                0x0000000020004d14      0x188 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000020004d14                uart_init
  .text.clocks_init
-                0x0000000020004de8      0x2d0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000020004de8                clocks_init
+                0x0000000020004e9c      0x2d0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000020004e9c                clocks_init
  .text.clock_get_hz
-                0x00000000200050b8        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000200050b8                clock_get_hz
+                0x000000002000516c        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000000002000516c                clock_get_hz
  .text.pll_init
-                0x00000000200050c4       0xa0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x00000000200050c4                pll_init
+                0x0000000020005178       0xa0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000020005178                pll_init
  .text.watchdog_start_tick
-                0x0000000020005164       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000020005164                watchdog_start_tick
+                0x0000000020005218       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000020005218                watchdog_start_tick
  .text.xosc_init
-                0x0000000020005174       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000020005174                xosc_init
+                0x0000000020005228       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000020005228                xosc_init
  .text.runtime_init
-                0x000000002000519c       0xf0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000002000519c                runtime_init
- .text._exit    0x000000002000528c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000002000528c                _exit
- .text.exit     0x0000000020005290        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000020005290                exit
- .text.panic    0x0000000020005298       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000020005298                panic
+                0x0000000020005250       0xf0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020005250                runtime_init
+ .text._exit    0x0000000020005340        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020005340                _exit
+ .text.exit     0x0000000020005344        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020005344                exit
+ .text.panic    0x000000002000534c       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000002000534c                panic
  .text.panic_unsupported
-                0x00000000200052c8        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000200052c8                panic_unsupported
+                0x000000002000537c        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000002000537c                panic_unsupported
  .text.hard_assertion_failure
-                0x00000000200052d4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000200052d4                hard_assertion_failure
+                0x0000000020005388        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020005388                hard_assertion_failure
+ .text._out_null
+                0x0000000020005394        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_rev
+                0x0000000020005398       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ntoa_format
+                0x0000000020005434      0x1cc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x00000000200052e0       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020005600       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_fct
+                0x0000000020005610       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000020005620      0x44c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000020005a6c      0x398 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._vsnprintf
+                0x0000000020005e04      0xb04 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text.vfctprintf
+                0x0000000020006908       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020006908                vfctprintf
  .text.weak_raw_vprintf
-                0x00000000200052f0       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000200052f0                weak_raw_vprintf
- .text          0x0000000020005320       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020006928       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020006928                weak_raw_vprintf
+ .text          0x0000000020006958       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000020005330       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000020005330                rom_func_lookup
+                0x0000000020006968       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000020006968                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000020005340       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000020005340                rom_data_lookup
+                0x0000000020006978       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000020006978                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000020005350       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000020005350                rom_funcs_lookup
+                0x0000000020006988       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000020006988                rom_funcs_lookup
+ .text.__wrap___aeabi_idiv
+                0x00000000200069cc       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000200069cc                __wrap___aeabi_idivmod
+                0x00000000200069cc                divmod_s32s32
+                0x00000000200069cc                div_s32s32
+                0x00000000200069cc                __wrap___aeabi_idiv
+                0x00000000200069d4                divmod_s32s32_unsafe
+                0x0000000020006a00                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000020005394       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000020005394                __wrap___aeabi_uidiv
-                0x0000000020005394                __wrap___aeabi_uidivmod
-                0x0000000020005394                div_u32u32
-                0x0000000020005394                divmod_u32u32
-                0x000000002000539c                divmod_u32u32_unsafe
-                0x00000000200053c4                divmod_u32u32_savestate
+                0x0000000020006a1c       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000020006a1c                __wrap___aeabi_uidiv
+                0x0000000020006a1c                __wrap___aeabi_uidivmod
+                0x0000000020006a1c                div_u32u32
+                0x0000000020006a1c                divmod_u32u32
+                0x0000000020006a24                divmod_u32u32_unsafe
+                0x0000000020006a4c                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x00000000200053e0      0x424 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000200053e0                div_s64s64
-                0x00000000200053e0                divmod_s64s64
-                0x00000000200053e0                __wrap___aeabi_ldivmod
-                0x0000000020005410                div_u64u64
-                0x0000000020005410                divmod_u64u64
-                0x0000000020005410                __wrap___aeabi_uldivmod
-                0x0000000020005420                divmod_u64u64_savestate
-                0x0000000020005440                divmod_s64s64_unsafe
-                0x00000000200054c8                divmod_u64u64_unsafe
+                0x0000000020006a68      0x424 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000020006a68                div_s64s64
+                0x0000000020006a68                divmod_s64s64
+                0x0000000020006a68                __wrap___aeabi_ldivmod
+                0x0000000020006a98                div_u64u64
+                0x0000000020006a98                divmod_u64u64
+                0x0000000020006a98                __wrap___aeabi_uldivmod
+                0x0000000020006aa8                divmod_u64u64_savestate
+                0x0000000020006ac8                divmod_s64s64_unsafe
+                0x0000000020006b50                divmod_u64u64_unsafe
+ .text.__wrap___aeabi_darithmetic
+                0x0000000020006e8c       0x80 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006e8c                __wrap___aeabi_drsub
+                0x0000000020006e92                __wrap___aeabi_dsub
+                0x0000000020006ea4                __wrap___aeabi_dadd
+                0x0000000020006eb6                __wrap___aeabi_ddiv
+                0x0000000020006ef2                __wrap___aeabi_dmul
+ .text.__wrap___aeabi_cdcmple
+                0x0000000020006f0c       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006f0c                __wrap___aeabi_cdrcmple
+                0x0000000020006f1c                __wrap___aeabi_cdcmple
+                0x0000000020006f1c                __wrap___aeabi_cdcmpeq
+ .text.__wrap___aeabi_dcmplt
+                0x0000000020006f78        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006f78                __wrap___aeabi_dcmplt
+ .text.__wrap___aeabi_dcmple
+                0x0000000020006f84       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006f84                __wrap___aeabi_dcmple
+ .text.__wrap___aeabi_dcmpge
+                0x0000000020006f94       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006f94                __wrap___aeabi_dcmpge
+ .text.__wrap___aeabi_dcmpgt
+                0x0000000020006fa4        0xa CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006fa4                __wrap___aeabi_dcmpgt
+ .text.__wrap___aeabi_dcmpun
+                0x0000000020006fae       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006fae                __wrap___aeabi_dcmpun
+ *fill*         0x0000000020006fca        0x2 
+ .text.__wrap___aeabi_i2d
+                0x0000000020006fcc       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020006fcc                __wrap___aeabi_ui2d
+                0x0000000020006fd4                __wrap___aeabi_i2d
+ .text.__wrap___aeabi_d2iz
+                0x0000000020007004       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020007004                __wrap___aeabi_d2iz
+                0x0000000020007004                double2int_z
+ .text.__wrap___aeabi_d2uiz
+                0x000000002000704c       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000002000704c                double2uint
+                0x000000002000704c                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000020005804       0x94 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020005804                __aeabi_double_init
+                0x0000000020007064       0x94 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020007064                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000020005898       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000020005898                double_table_shim_on_use_helper
+                0x00000000200070f8       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000200070f8                double_table_shim_on_use_helper
+ .text.__wrap___aeabi_dsub
+                0x0000000020007124       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000020007124                drsub_shim
+                0x000000002000712a                dsub_shim
+ .text.dadd_shim
+                0x0000000020007134      0x15c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000020007134                dadd_shim
+ .text.dmul_shim
+                0x0000000020007290      0x15c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000020007290                dmul_shim
+ .text.ddiv_shim
+                0x00000000200073ec      0x1b0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000200073ec                ddiv_shim
+ .text.double2uint_shim
+                0x000000002000759c        0xe CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000002000759c                double2uint_shim
+                0x000000002000759e                double2ufix_shim
+ *fill*         0x00000000200075aa        0x2 
+ .text.double2uint64_shim
+                0x00000000200075ac       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000200075ac                double2uint64_shim
+                0x00000000200075ae                double2ufix64_shim
+                0x00000000200075ce                d2fix_a
+ .text.dunpacks
+                0x000000002000761c       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000002000761c                dunpacks
  .text.__aeabi_lmul
-                0x00000000200058c4       0x32 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x00000000200058c4                __wrap___aeabi_lmul
- *fill*         0x00000000200058f6        0x2 
+                0x0000000020007658       0x32 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000020007658                __wrap___aeabi_lmul
+ *fill*         0x000000002000768a        0x2 
  .text.__aeabi_float_init
-                0x00000000200058f8       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x00000000200058f8                __aeabi_float_init
+                0x000000002000768c       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000002000768c                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x000000002000595c       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x000000002000595c                float_table_shim_on_use_helper
- .text          0x0000000020005988       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000020005988                __aeabi_mem_init
- .text.memset   0x0000000020005998        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000020005998                __wrap_memset
- .text.memcpy   0x00000000200059a4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000200059a4                __wrap___aeabi_memcpy
-                0x00000000200059a4                __wrap_memcpy
+                0x00000000200076f0       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x00000000200076f0                float_table_shim_on_use_helper
+ .text          0x000000002000771c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000002000771c                __aeabi_mem_init
+ .text.memset   0x000000002000772c        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000002000772c                __wrap_memset
+ .text.memcpy   0x0000000020007738        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020007738                __wrap___aeabi_memcpy
+                0x0000000020007738                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x00000000200059b0       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007744       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x00000000200059c0       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007754       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_buffered_printer
+                0x0000000020007808       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000020005a74       0xfc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000002000786c       0xfc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000020005b70       0x98 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020005b70                __wrap_putchar
+                0x0000000020007968       0x98 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007968                __wrap_putchar
  .text.__wrap_puts
-                0x0000000020005c08       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020005c08                __wrap_puts
+                0x0000000020007a00       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007a00                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x0000000020005c44       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020005c44                stdio_set_driver_enabled
+                0x0000000020007a3c       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007a3c                stdio_set_driver_enabled
+ .text.__wrap_vprintf
+                0x0000000020007a6c       0xd8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007a6c                __wrap_vprintf
+ .text.__wrap_printf
+                0x0000000020007b44       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020007b44                __wrap_printf
  .text.stdio_uart_out_chars
-                0x0000000020005c74       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007b5c       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x0000000020005cc0       0x84 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000020005cc0                stdio_uart_in_chars
+                0x0000000020007ba8       0x84 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007ba8                stdio_uart_in_chars
  .text.on_uart_rx
-                0x0000000020005d44       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007c2c       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x0000000020005d6c       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007c54       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x0000000020005df8       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000020005df8                stdio_uart_init
+                0x0000000020007ce0       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007ce0                stdio_uart_init
  .text.stdio_uart_init_full
-                0x0000000020005e40       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000020005e40                stdio_uart_init_full
+                0x0000000020007d28       0x3c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020007d28                stdio_uart_init_full
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000020005e7c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020007d64       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id
-                0x0000000020005e8c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000020005e8c                pico_get_unique_board_id
+                0x0000000020007d74       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020007d74                pico_get_unique_board_id
  .text.flash_get_unique_id
-                0x0000000020005e9c       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000020005e9c                flash_get_unique_id
+                0x0000000020007d84       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000020007d84                flash_get_unique_id
  .text.dcd_int_enable
-                0x0000000020005edc        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005edc                dcd_int_enable
+                0x0000000020007dc4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007dc4                dcd_int_enable
  .text.dcd_set_address
-                0x0000000020005ee8       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005ee8                dcd_set_address
+                0x0000000020007dd0       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007dd0                dcd_set_address
  .text.dcd_connect
-                0x0000000020005efc       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005efc                dcd_connect
+                0x0000000020007de4       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007de4                dcd_connect
  .text.dcd_init
-                0x0000000020005f0c       0x98 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005f0c                dcd_init
+                0x0000000020007df4       0x98 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007df4                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000020005fa4       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005fa4                dcd_edpt0_status_complete
+                0x0000000020007e8c       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007e8c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000020005fc0      0x108 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000020005fc0                dcd_edpt_open
+                0x0000000020007ea8      0x108 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007ea8                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x00000000200060c8        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000200060c8                dcd_edpt_close_all
+                0x0000000020007fb0        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007fb0                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x00000000200060d0       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000200060d0                dcd_edpt_xfer
+                0x0000000020007fb8       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007fb8                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x00000000200060f4       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000200060f4                dcd_edpt_stall
+                0x0000000020007fdc       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020007fdc                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x000000002000612c       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000002000612c                dcd_edpt_clear_stall
+                0x0000000020008014       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020008014                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x000000002000615c       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000615c                rp2040_usb_init
+                0x0000000020008044       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020008044                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x00000000200061a8       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000200061a8                hw_endpoint_xfer_start
+                0x0000000020008090       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020008090                hw_endpoint_xfer_start
  .text.configuration_reset
-                0x00000000200061f8       0xac CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200080e0       0xac CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.tud_mounted
-                0x00000000200062a4       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200062a4                tud_mounted
+                0x000000002000818c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000818c                tud_mounted
  .text.tud_suspended
-                0x00000000200062b4       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200062b4                tud_suspended
+                0x000000002000819c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000819c                tud_suspended
  .text.tud_inited
-                0x00000000200062c4       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200062c4                tud_inited
+                0x00000000200081ac       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200081ac                tud_inited
  .text.tud_init
-                0x00000000200062d8      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200062d8                tud_init
+                0x00000000200081c0      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200081c0                tud_init
  .text.tud_task_event_ready
-                0x00000000200063dc       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200063dc                tud_task_event_ready
+                0x00000000200082c4       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200082c4                tud_task_event_ready
  .text.tud_task_ext
-                0x00000000200063fc      0x768 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000200063fc                tud_task_ext
+                0x00000000200082e4      0x768 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200082e4                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x0000000020006b64       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006b64                usbd_open_edpt_pair
+                0x0000000020008a4c       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008a4c                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x0000000020006c00       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006c00                usbd_edpt_open
+                0x0000000020008ae8       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008ae8                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000020006c34       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006c34                usbd_edpt_claim
+                0x0000000020008b1c       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008b1c                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000020006c5c       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006c5c                usbd_edpt_release
+                0x0000000020008b44       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008b44                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000020006c84       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006c84                usbd_edpt_xfer
+                0x0000000020008b6c       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008b6c                usbd_edpt_xfer
  .text.usbd_edpt_busy
-                0x0000000020006cd0       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020006cd0                usbd_edpt_busy
+                0x0000000020008bb8       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008bb8                usbd_edpt_busy
  .text.tud_control_status
-                0x0000000020006cec       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006cec                tud_control_status
+                0x0000000020008bd4       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008bd4                tud_control_status
  .text.tud_control_xfer
-                0x0000000020006d1c       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006d1c                tud_control_xfer
+                0x0000000020008c04       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008c04                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000020006dd8       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006dd8                usbd_control_reset
+                0x0000000020008cc0       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008cc0                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000020006dec        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006dec                usbd_control_set_complete_callback
+                0x0000000020008cd4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008cd4                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000020006df8       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006df8                usbd_control_set_request
+                0x0000000020008ce0       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008ce0                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000020006e14       0xfc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000020006e14                usbd_control_xfer_cb
+                0x0000000020008cfc       0xfc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008cfc                usbd_control_xfer_cb
  .text.tud_cdc_n_write_flush
-                0x0000000020006f10       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000020006f10                tud_cdc_n_write_flush
+                0x0000000020008df8       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020008df8                tud_cdc_n_write_flush
  .text.cdcd_init
-                0x0000000020006f8c       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000020006f8c                cdcd_init
+                0x0000000020008e74       0x7c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020008e74                cdcd_init
  .text.cdcd_reset
-                0x0000000020007008       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000020007008                cdcd_reset
+                0x0000000020008ef0       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020008ef0                cdcd_reset
  .text.cdcd_open
-                0x0000000020007034       0xe8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000020007034                cdcd_open
+                0x0000000020008f1c       0xe8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020008f1c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x000000002000711c       0xe4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000002000711c                cdcd_control_xfer_cb
+                0x0000000020009004       0xe4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020009004                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000020007200      0x14c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000020007200                cdcd_xfer_cb
+                0x00000000200090e8      0x14c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000200090e8                cdcd_xfer_cb
  .text.tud_hid_n_report
-                0x000000002000734c       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x000000002000734c                tud_hid_n_report
+                0x0000000020009234       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x0000000020009234                tud_hid_n_report
  .text.hidd_init
-                0x00000000200073dc       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x00000000200073dc                hidd_init
+                0x00000000200092c4       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x00000000200092c4                hidd_init
  .text.hidd_reset
-                0x00000000200073f0       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x00000000200073f0                hidd_reset
+                0x00000000200092d8       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x00000000200092d8                hidd_reset
  .text.hidd_open
-                0x0000000020007404       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x0000000020007404                hidd_open
+                0x00000000200092ec       0x90 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x00000000200092ec                hidd_open
  .text.hidd_control_xfer_cb
-                0x0000000020007494      0x1bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x0000000020007494                hidd_control_xfer_cb
+                0x000000002000937c      0x1bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x000000002000937c                hidd_control_xfer_cb
  .text.hidd_xfer_cb
-                0x0000000020007650       0x68 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-                0x0000000020007650                hidd_xfer_cb
+                0x0000000020009538       0x68 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x0000000020009538                hidd_xfer_cb
  .text.vendord_init
-                0x00000000200076b8       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x00000000200076b8                vendord_init
+                0x00000000200095a0       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x00000000200095a0                vendord_init
  .text.vendord_reset
-                0x0000000020007724       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x0000000020007724                vendord_reset
+                0x000000002000960c       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x000000002000960c                vendord_reset
  .text.vendord_open
-                0x0000000020007740       0xd0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x0000000020007740                vendord_open
+                0x0000000020009628       0xd0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x0000000020009628                vendord_open
  .text.vendord_xfer_cb
-                0x0000000020007810       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x0000000020007810                vendord_xfer_cb
+                0x00000000200096f8       0xb4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x00000000200096f8                vendord_xfer_cb
  .text.tusb_init
-                0x00000000200078c4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000200078c4                tusb_init
+                0x00000000200097ac        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000200097ac                tusb_init
  .text.tusb_inited
-                0x00000000200078d0        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000200078d0                tusb_inited
+                0x00000000200097b8        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000200097b8                tusb_inited
  .text.tu_edpt_claim
-                0x00000000200078d8       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000200078d8                tu_edpt_claim
+                0x00000000200097c0       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000200097c0                tu_edpt_claim
  .text.tu_edpt_release
-                0x0000000020007928       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000020007928                tu_edpt_release
+                0x0000000020009810       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000020009810                tu_edpt_release
  .text.tu_edpt_validate
-                0x0000000020007960       0x78 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000020007960                tu_edpt_validate
+                0x0000000020009848       0x78 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000020009848                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x00000000200079d8       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000200079d8                tu_edpt_bind_driver
+                0x00000000200098c0       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000200098c0                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x0000000020007a0c       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007a0c                tu_fifo_config
+                0x00000000200098f4       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000200098f4                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000020007a7c       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007a7c                tu_fifo_count
+                0x0000000020009964       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009964                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000020007aa8       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007aa8                tu_fifo_empty
+                0x0000000020009990       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009990                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000020007ab8       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007ab8                tu_fifo_remaining
+                0x00000000200099a0       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000200099a0                tu_fifo_remaining
  .text.tu_fifo_read
-                0x0000000020007ae4       0xa0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007ae4                tu_fifo_read
+                0x00000000200099cc       0xa0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000200099cc                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000020007b84       0xec CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007b84                tu_fifo_read_n
+                0x0000000020009a6c       0xec CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009a6c                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000020007c70       0x88 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007c70                tu_fifo_write
+                0x0000000020009b58       0x88 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009b58                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000020007cf8      0x168 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007cf8                tu_fifo_write_n
+                0x0000000020009be0      0x168 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009be0                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000020007e60       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007e60                tu_fifo_clear
+                0x0000000020009d48       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009d48                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000020007ea0       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000020007ea0                tu_fifo_set_overwritable
+                0x0000000020009d88       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000020009d88                tu_fifo_set_overwritable
  .text.hw_enumeration_fix_force_ls_j_done
-                0x0000000020007ee8       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-                0x0000000020007ee8                hw_enumeration_fix_force_ls_j_done
+                0x0000000020009dd0       0x44 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+                0x0000000020009dd0                hw_enumeration_fix_force_ls_j_done
  .text.hw_enumeration_fix_force_ls_j
-                0x0000000020007f2c      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+                0x0000000020009e14      0x104 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .text.hw_enumeration_fix_wait_se0_callback
-                0x0000000020008030       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-                0x0000000020008030                hw_enumeration_fix_wait_se0_callback
+                0x0000000020009f18       0x24 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+                0x0000000020009f18                hw_enumeration_fix_wait_se0_callback
  .text.rp2040_usb_device_enumeration_fix
-                0x0000000020008054       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-                0x0000000020008054                rp2040_usb_device_enumeration_fix
+                0x0000000020009f3c       0x64 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+                0x0000000020009f3c                rp2040_usb_device_enumeration_fix
  .text.board_init
-                0x00000000200080b8       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-                0x00000000200080b8                board_init
+                0x0000000020009fa0       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x0000000020009fa0                board_init
  .text.vPortSVCHandler
-                0x00000000200080e8        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000200080e8                vPortSVCHandler
+                0x0000000020009fd0        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020009fd0                vPortSVCHandler
  .text.vPortStartFirstTask
-                0x00000000200080ec       0x28 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020009fd4       0x28 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.xPortPendSVHandler
-                0x0000000020008114       0x60 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008114                xPortPendSVHandler
+                0x0000000020009ffc       0x60 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020009ffc                xPortPendSVHandler
  .text.prvFIFOInterruptHandler
-                0x0000000020008174       0x78 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a05c       0x78 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.prvTaskExitError
-                0x00000000200081ec        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a0d4        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.pxPortInitialiseStack
-                0x00000000200081f4       0x20 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000200081f4                pxPortInitialiseStack
+                0x000000002000a0dc       0x20 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a0dc                pxPortInitialiseStack
  .text.vPortYield
-                0x0000000020008214       0x18 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008214                vPortYield
+                0x000000002000a0fc       0x18 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a0fc                vPortYield
  .text.vPortEnterCritical
-                0x000000002000822c       0x18 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x000000002000822c                vPortEnterCritical
+                0x000000002000a114       0x18 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a114                vPortEnterCritical
  .text.vPortExitCritical
-                0x0000000020008244       0x34 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008244                vPortExitCritical
+                0x000000002000a12c       0x34 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a12c                vPortExitCritical
  .text.ulSetInterruptMaskFromISR
-                0x0000000020008278        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008278                ulSetInterruptMaskFromISR
+                0x000000002000a160        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a160                ulSetInterruptMaskFromISR
  .text.vClearInterruptMaskFromISR
-                0x0000000020008280        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008280                vClearInterruptMaskFromISR
+                0x000000002000a168        0x8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a168                vClearInterruptMaskFromISR
  .text.xPortSysTickHandler
-                0x0000000020008288       0x24 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008288                xPortSysTickHandler
+                0x000000002000a170       0x24 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a170                xPortSysTickHandler
  .text.vPortSetupTimerInterrupt
-                0x00000000200082ac       0x34 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000200082ac                vPortSetupTimerInterrupt
+                0x000000002000a194       0x34 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a194                vPortSetupTimerInterrupt
  .text.xPortStartScheduler
-                0x00000000200082e0       0xa8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000200082e0                xPortStartScheduler
+                0x000000002000a1c8       0xa8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a1c8                xPortStartScheduler
  .text.ulPortLockGetCurrentOwnerId
-                0x0000000020008388       0x2c CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000020008388                ulPortLockGetCurrentOwnerId
+                0x000000002000a270       0x2c CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a270                ulPortLockGetCurrentOwnerId
  .text.vPortLockInternalSpinUnlockWithNotify
-                0x00000000200083b4       0xc8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000200083b4                vPortLockInternalSpinUnlockWithNotify
+                0x000000002000a29c       0xc8 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a29c                vPortLockInternalSpinUnlockWithNotify
  .text.xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
-                0x000000002000847c       0xf4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x000000002000847c                xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
+                0x000000002000a364       0xf4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a364                xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
  .text.startup.prvRuntimeInitializer
-                0x0000000020008570       0x28 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000a458       0x28 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.vEventGroupSetBitsCallback
-                0x0000000020008598       0x8c CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
-                0x0000000020008598                vEventGroupSetBitsCallback
+                0x000000002000a480       0x8c CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
+                0x000000002000a480                vEventGroupSetBitsCallback
  .text.xEventGroupCreate
-                0x0000000020008624       0x18 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
-                0x0000000020008624                xEventGroupCreate
+                0x000000002000a50c       0x18 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
+                0x000000002000a50c                xEventGroupCreate
  .text.xEventGroupWaitBits
-                0x000000002000863c       0xb8 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
-                0x000000002000863c                xEventGroupWaitBits
+                0x000000002000a524       0xb8 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
+                0x000000002000a524                xEventGroupWaitBits
  .text.xEventGroupSetBits
-                0x00000000200086f4       0x90 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
-                0x00000000200086f4                xEventGroupSetBits
+                0x000000002000a5dc       0x90 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
+                0x000000002000a5dc                xEventGroupSetBits
  .text.xEventGroupSetBitsFromISR
-                0x0000000020008784       0x14 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
-                0x0000000020008784                xEventGroupSetBitsFromISR
+                0x000000002000a66c       0x14 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj
+                0x000000002000a66c                xEventGroupSetBitsFromISR
  .text.vListInitialise
-                0x0000000020008798       0x18 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
-                0x0000000020008798                vListInitialise
+                0x000000002000a680       0x18 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
+                0x000000002000a680                vListInitialise
  .text.vListInitialiseItem
-                0x00000000200087b0        0x8 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
-                0x00000000200087b0                vListInitialiseItem
+                0x000000002000a698        0x8 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
+                0x000000002000a698                vListInitialiseItem
  .text.vListInsertEnd
-                0x00000000200087b8       0x18 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
-                0x00000000200087b8                vListInsertEnd
+                0x000000002000a6a0       0x18 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
+                0x000000002000a6a0                vListInsertEnd
  .text.vListInsert
-                0x00000000200087d0       0x30 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
-                0x00000000200087d0                vListInsert
+                0x000000002000a6b8       0x30 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
+                0x000000002000a6b8                vListInsert
  .text.uxListRemove
-                0x0000000020008800       0x24 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
-                0x0000000020008800                uxListRemove
+                0x000000002000a6e8       0x24 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj
+                0x000000002000a6e8                uxListRemove
  .text.prvUnlockQueue
-                0x0000000020008824      0x148 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000a70c      0x148 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
  .text.prvNotifyQueueSetContainer
-                0x000000002000896c       0x9c CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000a854       0x9c CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
  .text.xQueueGenericCreate
-                0x0000000020008a08       0xa0 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x0000000020008a08                xQueueGenericCreate
+                0x000000002000a8f0       0xa0 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000a8f0                xQueueGenericCreate
  .text.xQueueGenericSendFromISR
-                0x0000000020008aa8      0x138 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x0000000020008aa8                xQueueGenericSendFromISR
+                0x000000002000a990      0x138 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000a990                xQueueGenericSendFromISR
  .text.xQueueReceive
-                0x0000000020008be0      0x11c CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x0000000020008be0                xQueueReceive
+                0x000000002000aac8      0x11c CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000aac8                xQueueReceive
  .text.vQueueAddToRegistry
-                0x0000000020008cfc       0xec CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x0000000020008cfc                vQueueAddToRegistry
+                0x000000002000abe4       0xec CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000abe4                vQueueAddToRegistry
  .text.vQueueWaitForMessageRestricted
-                0x0000000020008de8       0x48 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x0000000020008de8                vQueueWaitForMessageRestricted
+                0x000000002000acd0       0x48 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000acd0                vQueueWaitForMessageRestricted
  .text.prvIdleTask
-                0x0000000020008e30       0x60 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000ad18       0x60 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .text.vTaskSwitchContext.part.0
-                0x0000000020008e90       0x80 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000ad78       0x80 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .text.xTaskCreate
-                0x0000000020008f10      0x280 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020008f10                xTaskCreate
+                0x000000002000adf8      0x280 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000adf8                xTaskCreate
  .text.vTaskSuspend
-                0x0000000020009190       0xcc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009190                vTaskSuspend
+                0x000000002000b078       0xcc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b078                vTaskSuspend
  .text.vTaskResume
-                0x000000002000925c       0x8c CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x000000002000925c                vTaskResume
+                0x000000002000b144       0x8c CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b144                vTaskResume
  .text.vTaskStartScheduler
-                0x00000000200092e8      0x1e0 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200092e8                vTaskStartScheduler
+                0x000000002000b1d0      0x1e0 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b1d0                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x00000000200094c8       0x10 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200094c8                vTaskSuspendAll
+                0x000000002000b3b0       0x10 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b3b0                vTaskSuspendAll
  .text.xTaskGetTickCount
-                0x00000000200094d8        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200094d8                xTaskGetTickCount
+                0x000000002000b3c0        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b3c0                xTaskGetTickCount
  .text.uxTaskGetNumberOfTasks
-                0x00000000200094e4        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200094e4                uxTaskGetNumberOfTasks
+                0x000000002000b3cc        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b3cc                uxTaskGetNumberOfTasks
  .text.xTaskIncrementTick
-                0x00000000200094f0      0x1d0 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200094f0                xTaskIncrementTick
+                0x000000002000b3d8      0x1d0 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b3d8                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x00000000200096c0      0x170 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200096c0                xTaskResumeAll
+                0x000000002000b5a8      0x170 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b5a8                xTaskResumeAll
  .text.xTaskDelayUntil
-                0x0000000020009830       0xa4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009830                xTaskDelayUntil
+                0x000000002000b718       0xa4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b718                xTaskDelayUntil
  .text.vTaskSwitchContext
-                0x00000000200098d4       0x20 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200098d4                vTaskSwitchContext
+                0x000000002000b7bc       0x20 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b7bc                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x00000000200098f4       0x98 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200098f4                vTaskPlaceOnEventList
+                0x000000002000b7dc       0x98 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b7dc                vTaskPlaceOnEventList
  .text.vTaskPlaceOnUnorderedEventList
-                0x000000002000998c       0xbc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x000000002000998c                vTaskPlaceOnUnorderedEventList
+                0x000000002000b874       0xbc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b874                vTaskPlaceOnUnorderedEventList
  .text.vTaskPlaceOnEventListRestricted
-                0x0000000020009a48       0xc4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009a48                vTaskPlaceOnEventListRestricted
+                0x000000002000b930       0xc4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b930                vTaskPlaceOnEventListRestricted
  .text.xTaskRemoveFromEventList
-                0x0000000020009b0c       0xd8 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009b0c                xTaskRemoveFromEventList
+                0x000000002000b9f4       0xd8 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000b9f4                xTaskRemoveFromEventList
  .text.vTaskRemoveFromUnorderedEventList
-                0x0000000020009be4       0x98 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009be4                vTaskRemoveFromUnorderedEventList
+                0x000000002000bacc       0x98 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bacc                vTaskRemoveFromUnorderedEventList
  .text.vTaskInternalSetTimeOutState
-                0x0000000020009c7c       0x18 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009c7c                vTaskInternalSetTimeOutState
+                0x000000002000bb64       0x18 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bb64                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000020009c94       0x74 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009c94                xTaskCheckForTimeOut
+                0x000000002000bb7c       0x74 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bb7c                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000020009d08        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009d08                vTaskMissedYield
+                0x000000002000bbf0        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bbf0                vTaskMissedYield
  .text.xTaskGetCurrentTaskHandle
-                0x0000000020009d14        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009d14                xTaskGetCurrentTaskHandle
+                0x000000002000bbfc        0xc CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bbfc                xTaskGetCurrentTaskHandle
  .text.xTaskPriorityDisinherit
-                0x0000000020009d20       0x64 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009d20                xTaskPriorityDisinherit
+                0x000000002000bc08       0x64 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bc08                xTaskPriorityDisinherit
  .text.uxTaskResetEventItemValue
-                0x0000000020009d84       0x18 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x0000000020009d84                uxTaskResetEventItemValue
+                0x000000002000bc6c       0x18 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000bc6c                uxTaskResetEventItemValue
  .text.prvTimerTask
-                0x0000000020009d9c      0x360 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x000000002000bc84      0x360 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .text.xTimerCreateTimerTask
-                0x000000002000a0fc       0x8c CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
-                0x000000002000a0fc                xTimerCreateTimerTask
+                0x000000002000bfe4       0x8c CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x000000002000bfe4                xTimerCreateTimerTask
  .text.xTimerPendFunctionCallFromISR
-                0x000000002000a188       0x28 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
-                0x000000002000a188                xTimerPendFunctionCallFromISR
+                0x000000002000c070       0x28 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x000000002000c070                xTimerPendFunctionCallFromISR
  .text.exception_set_exclusive_handler
-                0x000000002000a1b0       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-                0x000000002000a1b0                exception_set_exclusive_handler
+                0x000000002000c098       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+                0x000000002000c098                exception_set_exclusive_handler
  .text.pvPortMalloc
-                0x000000002000a1f8       0x80 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
-                0x000000002000a1f8                pvPortMalloc
+                0x000000002000c0e0       0x80 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
+                0x000000002000c0e0                pvPortMalloc
  .text.vPortFree
-                0x000000002000a278        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
-                0x000000002000a278                vPortFree
- .text          0x000000002000a27c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x000000002000a27c                __aeabi_ldiv0
-                0x000000002000a27c                __aeabi_idiv0
- .text          0x000000002000a280       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000002000a280                strlen
+                0x000000002000c160        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
+                0x000000002000c160                vPortFree
+ .text          0x000000002000c164        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000000002000c164                __aeabi_ldiv0
+                0x000000002000c164                __aeabi_idiv0
+ .text          0x000000002000c168       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000002000c168                strlen
  *(.fini)
- .fini          0x000000002000a2dc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x000000002000a2dc                _fini
+ .fini          0x000000002000c1c4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x000000002000c1c4                _fini
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2793,504 +2824,519 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x000000002000a2e0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000002000a2e0                . = ALIGN (0x4)
-                0x000000002000a2e0                __ram_text_end__ = .
+ .eh_frame      0x000000002000c1c8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000c1c8                . = ALIGN (0x4)
+                0x000000002000c1c8                __ram_text_end__ = .
                 0x0000000010000304                __ram_text_source__ = LOADADDR (.text)
 
-.glue_7         0x000000002000a2e0        0x0 load address 0x000000001000a524
- .glue_7        0x000000002000a2e0        0x0 linker stubs
+.glue_7         0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .glue_7        0x000000002000c1c8        0x0 linker stubs
 
-.glue_7t        0x000000002000a2e0        0x0 load address 0x000000001000a524
- .glue_7t       0x000000002000a2e0        0x0 linker stubs
+.glue_7t        0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .glue_7t       0x000000002000c1c8        0x0 linker stubs
 
-.vfp11_veneer   0x000000002000a2e0        0x0 load address 0x000000001000a524
- .vfp11_veneer  0x000000002000a2e0        0x0 linker stubs
+.vfp11_veneer   0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .vfp11_veneer  0x000000002000c1c8        0x0 linker stubs
 
-.v4_bx          0x000000002000a2e0        0x0 load address 0x000000001000a524
- .v4_bx         0x000000002000a2e0        0x0 linker stubs
+.v4_bx          0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .v4_bx         0x000000002000c1c8        0x0 linker stubs
 
-.iplt           0x000000002000a2e0        0x0 load address 0x000000001000a524
- .iplt          0x000000002000a2e0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .iplt          0x000000002000c1c8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rel.dyn        0x000000002000a2e0        0x0 load address 0x000000001000a524
- .rel.iplt      0x000000002000a2e0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000002000a2e0                . = ALIGN (0x4)
+.rel.dyn        0x000000002000c1c8        0x0 load address 0x000000001000c40c
+ .rel.iplt      0x000000002000c1c8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000c1c8                . = ALIGN (0x4)
 
-.data           0x000000002000a2e0     0x1380 load address 0x000000001000a524
-                0x000000002000a2e0                __data_start__ = .
+.data           0x000000002000c1d0     0x1a30 load address 0x000000001000c40c
+                0x000000002000c1d0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
  .time_critical.mutex_try_enter_block_until
-                0x000000002000a2e0       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000a2e0                mutex_try_enter_block_until
+                0x000000002000c1d0       0x9c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000c1d0                mutex_try_enter_block_until
  .time_critical.mutex_enter_timeout_ms
-                0x000000002000a37c       0x78 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000a37c                mutex_enter_timeout_ms
+                0x000000002000c26c       0x78 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000c26c                mutex_enter_timeout_ms
  .time_critical.mutex_exit
-                0x000000002000a3f4       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000a3f4                mutex_exit
+                0x000000002000c2e4       0x20 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000c2e4                mutex_exit
  .time_critical.flash_init_boot2_copyout
-                0x000000002000a414       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000002000c304       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_enable_xip_via_boot2
-                0x000000002000a444       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000002000c334       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_cs_force
-                0x000000002000a454       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000002000c344       0x38 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_do_cmd
-                0x000000002000a48c       0xc4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x000000002000a48c                flash_do_cmd
+                0x000000002000c37c       0xc4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000002000c37c                flash_do_cmd
  .time_critical.reset_non_control_endpoints
-                0x000000002000a550       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000c440       0xbc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.hw_handle_buff_status
-                0x000000002000a60c       0xa8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000c4fc       0xa8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.dcd_rp2040_irq
-                0x000000002000a6b4      0x4e0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000c5a4      0x4e0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.e15_is_bulkin_ep
-                0x000000002000ab94       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000ca84       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.e15_is_critical_frame_period
-                0x000000002000abbc       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000caac       0x34 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.prepare_ep_buffer
-                0x000000002000abf0       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cae0       0x70 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.sync_ep_buffer
-                0x000000002000ac60       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cb50       0x4c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical._hw_endpoint_xfer_sync
-                0x000000002000acac       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cb9c       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.hw_endpoint_reset_transfer
-                0x000000002000acd4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000acd4                hw_endpoint_reset_transfer
+                0x000000002000cbc4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cbc4                hw_endpoint_reset_transfer
  .time_critical._hw_endpoint_buffer_control_update32
-                0x000000002000ace0       0x58 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000ace0                _hw_endpoint_buffer_control_update32
+                0x000000002000cbd0       0x58 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cbd0                _hw_endpoint_buffer_control_update32
  .time_critical.hw_endpoint_start_next_buffer
-                0x000000002000ad38       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000ad38                hw_endpoint_start_next_buffer
+                0x000000002000cc28       0x6c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cc28                hw_endpoint_start_next_buffer
  .time_critical.hw_endpoint_xfer_continue
-                0x000000002000ada4       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000ada4                hw_endpoint_xfer_continue
+                0x000000002000cc94       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000cc94                hw_endpoint_xfer_continue
  .time_critical.tinyusb
-                0x000000002000adf4      0x1b4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000002000adf4                dcd_event_handler
-                0x000000002000afa8                . = ALIGN (0x4)
+                0x000000002000cce4      0x1b4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000cce4                dcd_event_handler
+                0x000000002000ce98                . = ALIGN (0x4)
  *(.rodata*)
  .rodata.DAP_ProcessCommand.str1.4
-                0x000000002000afa8        0x6 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
- *fill*         0x000000002000afae        0x2 
+                0x000000002000ce98        0x6 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
+ *fill*         0x000000002000ce9e        0x2 
  .rodata.DAP_ProcessCommand
-                0x000000002000afb0       0x78 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
+                0x000000002000cea0       0x78 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
  .rodata.main.str1.4
-                0x000000002000b028        0x8 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x000000002000cf18       0x20 CMakeFiles/JTAGprobe.dir/src/main.c.obj
  .rodata.vApplicationStackOverflowHook.str1.4
-                0x000000002000b030       0x2e CMakeFiles/JTAGprobe.dir/src/main.c.obj
- *fill*         0x000000002000b05e        0x2 
+                0x000000002000cf38       0x2e CMakeFiles/JTAGprobe.dir/src/main.c.obj
+ *fill*         0x000000002000cf66        0x2 
  .rodata.vApplicationMallocFailedHook.str1.4
-                0x000000002000b060        0xf CMakeFiles/JTAGprobe.dir/src/main.c.obj
- *fill*         0x000000002000b06f        0x1 
+                0x000000002000cf68        0xf CMakeFiles/JTAGprobe.dir/src/main.c.obj
+ *fill*         0x000000002000cf77        0x1 
  .rodata.str1.4
-                0x000000002000b070       0x77 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
- *fill*         0x000000002000b0e7        0x1 
+                0x000000002000cf78       0x77 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+ *fill*         0x000000002000cfef        0x1 
  .rodata.__compound_literal.0
-                0x000000002000b0e8        0x2 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
- *fill*         0x000000002000b0ea        0x2 
+                0x000000002000cff0        0x2 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+ *fill*         0x000000002000cff2        0x2 
  .rodata.desc_bos
-                0x000000002000b0ec       0x21 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x000000002000b0ec                desc_bos
- *fill*         0x000000002000b10d        0x3 
+                0x000000002000cff4       0x21 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000cff4                desc_bos
+ *fill*         0x000000002000d015        0x3 
  .rodata.desc_device
-                0x000000002000b110       0x12 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x000000002000b110                desc_device
- *fill*         0x000000002000b122        0x2 
+                0x000000002000d018       0x12 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000d018                desc_device
+ *fill*         0x000000002000d02a        0x2 
  .rodata.desc_hid_report
-                0x000000002000b124       0x22 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
- *fill*         0x000000002000b146        0x2 
+                0x000000002000d02c       0x22 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+ *fill*         0x000000002000d04e        0x2 
  .rodata.desc_ms_os_20
-                0x000000002000b148       0xb2 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x000000002000b148                desc_ms_os_20
- *fill*         0x000000002000b1fa        0x2 
+                0x000000002000d050       0xb2 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000d050                desc_ms_os_20
+ *fill*         0x000000002000d102        0x2 
+ .rodata.dap_thread.str1.4
+                0x000000002000d104       0x5f CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+ *fill*         0x000000002000d163        0x1 
+ .rodata.str1.4
+                0x000000002000d164      0x1f0 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .rodata._dap_edpt_driver
-                0x000000002000b1fc       0x18 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x000000002000b1fc                _dap_edpt_driver
+                0x000000002000d354       0x18 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000d354                _dap_edpt_driver
  .rodata.hardware_alarm_claim.str1.4
-                0x000000002000b214       0x22 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000002000b236        0x2 
+                0x000000002000d36c       0x22 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000002000d38e        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x000000002000b238       0x1b CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000002000b253        0x1 
+                0x000000002000d390       0x1b CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000002000d3ab        0x1 
  .rodata.panic.str1.4
-                0x000000002000b254       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000002000d3ac       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x12 (size before relaxing)
  .rodata.panic_unsupported.str1.4
-                0x000000002000b264        0xe CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000002000b272        0x2 
+                0x000000002000d3bc        0xe CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x000000002000d3ca        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x000000002000b274        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000002000d3cc        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .rodata._ftoa.str1.4
+                0x000000002000d3d8       0x15 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000002000d3ed        0x3 
+ .rodata._vsnprintf
+                0x000000002000d3f0      0x1e0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata.pow10.0
+                0x000000002000d5d0       0x50 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x000000002000b280       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000002000d620       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x000000002000b2c0        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000002000d660        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x000000002000b2cc        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000002000d66c        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000002000b2d8        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000002000d678        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000002000b2e4        0x2 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000002000b2e6        0x2 
+                0x000000002000d684        0x2 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000002000d686        0x2 
  .rodata.str1.4
-                0x000000002000b2e8       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000002000d688       0x2c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x000000002000b314        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000002000d6b4        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x000000002000b320        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000002000d6c0        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.str1.4
-                0x000000002000b328       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000d6c8       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x000000002000b33c       0x49 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000d6dc       0x49 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                          0x53 (size before relaxing)
- *fill*         0x000000002000b385        0x3 
+ *fill*         0x000000002000d725        0x3 
  .rodata.tud_task_ext
-                0x000000002000b388       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000d728       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x000000002000b414       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000d7b4       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.hidd_control_xfer_cb
-                0x000000002000b45c       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x000000002000d7fc       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .rodata.str1.4
-                0x000000002000b48c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x000000002000d82c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .rodata.__bi_142.0
-                0x000000002000b490        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x000000002000d830        0xc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .rodata.__bi_152.1
-                0x000000002000b49c        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x000000002000d83c        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .rodata.prvTimerTask
-                0x000000002000b4a4       0x28 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x000000002000d844       0x28 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .rodata.xTimerCreateTimerTask.str1.4
-                0x000000002000b4cc       0x10 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
-                0x000000002000b4dc                . = ALIGN (0x4)
+                0x000000002000d86c       0x10 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x000000002000d87c                . = ALIGN (0x4)
  *(.data*)
  .data.desc_configuration
-                0x000000002000b4dc       0x62 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x000000002000b4dc                desc_configuration
- *fill*         0x000000002000b53e        0x2 
+                0x000000002000d87c       0x62 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000d87c                desc_configuration
+ *fill*         0x000000002000d8de        0x2 
  .data.string_desc_arr
-                0x000000002000b540       0x1c CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
-                0x000000002000b540                string_desc_arr
+                0x000000002000d8e0       0x1c CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000d8e0                string_desc_arr
+ .data.dap_cmd_string
+                0x000000002000d8fc      0x200 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000d8fc                dap_cmd_string
  .data.default_alarm_pool
-                0x000000002000b55c       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000dafc       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .data.default_alarm_pool_heap
-                0x000000002000b574       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000db14       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .data.striped_spin_lock_num
-                0x000000002000b584        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000002000b585        0x3 
- .data          0x000000002000b588       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                0x000000002000b588                irq_handler_chain_slots
-                0x000000002000b5b8                irq_handler_chain_first_slot
-                0x000000002000b5c2                irq_handler_chain_remove_tail
+                0x000000002000db24        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000002000db25        0x3 
+ .data          0x000000002000db28       0x48 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x000000002000db28                irq_handler_chain_slots
+                0x000000002000db58                irq_handler_chain_first_slot
+                0x000000002000db62                irq_handler_chain_remove_tail
  .data.aeabi_bits_funcs
-                0x000000002000b5d0       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x000000002000b5d0                aeabi_bits_funcs
-                0x000000002000b5e0                aeabi_bits_funcs_end
+                0x000000002000db70       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000002000db70                aeabi_bits_funcs
+                0x000000002000db80                aeabi_bits_funcs_end
  .data.aeabi_mem_funcs
-                0x000000002000b5e0       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x000000002000b5e0                aeabi_mem_funcs
-                0x000000002000b5f0                aeabi_mem_funcs_end
+                0x000000002000db80       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000002000db80                aeabi_mem_funcs
+                0x000000002000db90                aeabi_mem_funcs_end
  .data.stdio_uart
-                0x000000002000b5f0       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x000000002000b5f0                stdio_uart
+                0x000000002000db90       0x18 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000002000db90                stdio_uart
  .data.ep_dir_string
-                0x000000002000b608        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000002000b608                ep_dir_string
+                0x000000002000dba8        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000dba8                ep_dir_string
  .data._usbd_qdef
-                0x000000002000b610       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000002000b610                _usbd_qdef
+                0x000000002000dbb0       0x1c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000dbb0                _usbd_qdef
  .data._usbd_rhport
-                0x000000002000b62c        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000dbcc        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .data.ucLaunchCoreNum
-                0x000000002000b62d        0x1 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
- *fill*         0x000000002000b62e        0x2 
+                0x000000002000dbcd        0x1 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+ *fill*         0x000000002000dbce        0x2 
  .data.uxTopUsedPriority
-                0x000000002000b630        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x000000002000b630                uxTopUsedPriority
-                0x000000002000b634                . = ALIGN (0x4)
+                0x000000002000dbd0        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x000000002000dbd0                uxTopUsedPriority
+                0x000000002000dbd4                . = ALIGN (0x4)
  *(.after_data.*)
-                0x000000002000b634                . = ALIGN (0x4)
-                0x000000002000b634                PROVIDE (__mutex_array_start = .)
+                0x000000002000dbd4                . = ALIGN (0x4)
+                0x000000002000dbd4                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x000000002000b634        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .mutex_array   0x000000002000b63c        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000002000b644                PROVIDE (__mutex_array_end = .)
-                0x000000002000b644                . = ALIGN (0x4)
-                0x000000002000b644                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x000000002000dbd4        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .mutex_array   0x000000002000dbdc        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000002000dbe4                PROVIDE (__mutex_array_end = .)
+                0x000000002000dbe4                . = ALIGN (0x4)
+                0x000000002000dbe4                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x000000002000b644        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000002000dbe4        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x000000002000b648        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000002000dbe8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x000000002000b64c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000002000dbec        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x000000002000b650        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x000000002000dbf0        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x000000002000b654                PROVIDE (__preinit_array_end = .)
-                0x000000002000b654                . = ALIGN (0x4)
-                0x000000002000b654                PROVIDE (__init_array_start = .)
+                0x000000002000dbf4                PROVIDE (__preinit_array_end = .)
+                0x000000002000dbf4                . = ALIGN (0x4)
+                0x000000002000dbf4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x000000002000b654        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x000000002000b658        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .init_array    0x000000002000b65c        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x000000002000b660                PROVIDE (__init_array_end = .)
-                0x000000002000b660                . = ALIGN (0x4)
-                0x000000002000b660                PROVIDE (__fini_array_start = .)
+ .init_array    0x000000002000dbf4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x000000002000dbf8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .init_array    0x000000002000dbfc        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000002000dc00                PROVIDE (__init_array_end = .)
+                0x000000002000dc00                . = ALIGN (0x4)
+                0x000000002000dc00                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x000000002000b660                PROVIDE (__fini_array_end = .)
+                0x000000002000dc00                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x000000002000b660                . = ALIGN (0x4)
-                0x000000002000b660                __data_end__ = .
-                0x000000001000a524                __etext = LOADADDR (.data)
+                0x000000002000dc00                . = ALIGN (0x4)
+                0x000000002000dc00                __data_end__ = .
+                0x000000001000c40c                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x000000002000b660        0x0 load address 0x000000001000b8a4
+                0x000000002000dc00        0x0 load address 0x000000001000de3c
  .tm_clone_table
-                0x000000002000b660        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000dc00        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x000000002000b660        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+                0x000000002000dc00        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x000000002000b660        0x0 load address 0x000000001000b8a4
- .igot.plt      0x000000002000b660        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x000000002000dc00        0x0 load address 0x000000001000de3c
+ .igot.plt      0x000000002000dc00        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000b660        0x0 load address 0x000000001000b8a4
-                0x000000002000b660                . = ALIGN (0x4)
+                0x000000002000dc00        0x0 load address 0x000000001000de3c
+                0x000000002000dc00                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x000000001000b8a4
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001000de3c
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x000000001000b8a4                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001000de3c                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x000000001000b8a4
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001000de3c
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x000000001000b8a4                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001000de3c                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x000000002000b660    0x16350
-                0x000000002000b660                . = ALIGN (0x4)
-                0x000000002000b660                __bss_start__ = .
+.bss            0x000000002000dc00    0x16350
+                0x000000002000dc00                . = ALIGN (0x4)
+                0x000000002000dc00                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.default_alarm_pool_entries
-                0x000000002000b660      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
- .bss.sd_table  0x000000002000b760      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000002000b760                sd_table
- .bss.sf_table  0x000000002000b860      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x000000002000b860                sf_table
+                0x000000002000dc00      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x000000002000dd00      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000000002000dd00                sd_table
+ .bss.sf_table  0x000000002000de00      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000002000de00                sf_table
  .bss.xQueueRegistry
-                0x000000002000b960       0x40 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
-                0x000000002000b960                xQueueRegistry
- .bss           0x000000002000b9a0       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000df00       0x40 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj
+                0x000000002000df00                xQueueRegistry
+ .bss           0x000000002000df40       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .bss.DAPRequestBuffer
-                0x000000002000b9bc       0x40 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000df5c       0x40 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .bss.DAPResponseBuffer
-                0x000000002000b9fc       0x40 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
- .bss.DAP_Data  0x000000002000ba3c       0x44 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
-                0x000000002000ba3c                DAP_Data
+                0x000000002000df9c       0x40 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+ .bss.DAP_Data  0x000000002000dfdc       0x44 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
+                0x000000002000dfdc                DAP_Data
  .bss.TxDataBuffer
-                0x000000002000ba80       0x40 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x000000002000e020       0x40 CMakeFiles/JTAGprobe.dir/src/main.c.obj
  .bss.USBRequestBuffer
-                0x000000002000bac0       0x8c CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000e060       0x8c CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .bss.USBResponseBuffer
-                0x000000002000bb4c       0x8c CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000e0ec       0x8c CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .bss._app_driver
-                0x000000002000bbd8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000e178        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._cdcd_itf
-                0x000000002000bbdc     0x1148 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000002000e17c     0x1148 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .bss._ctrl_xfer
-                0x000000002000cd24       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000002000f2c4       0x14 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._desc_str
-                0x000000002000cd38       0x40 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
+                0x000000002000f2d8       0x40 CMakeFiles/JTAGprobe.dir/src/usb_descriptors.c.obj
  .bss._hidd_itf
-                0x000000002000cd78       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x000000002000f318       0x8c CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .bss._resp_len
-                0x000000002000ce04        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
-                0x000000002000ce04                _resp_len
+                0x000000002000f3a4        0x4 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x000000002000f3a4                _resp_len
  .bss._ubsd_mutexdef
-                0x000000002000ce08        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000f3a8        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_ctrl_buf
-                0x000000002000ce10       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000002000f3b0       0x40 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._usbd_dev
-                0x000000002000ce50       0x53 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x000000002000cea3        0x1 
+                0x000000002000f3f0       0x53 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x000000002000f443        0x1 
  .bss._usbd_mutex
-                0x000000002000cea4        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x000000002000cea8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000f444        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x000000002000f448        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_qdef_buf
-                0x000000002000ceac       0xc0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000002000ceac                _usbd_qdef_buf
+                0x000000002000f44c       0xc0 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000f44c                _usbd_qdef_buf
  .bss._vendord_itf
-                0x000000002000cf6c     0x40bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x000000002000f50c     0x40bc CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .bss.alarm_callbacks
-                0x0000000020011028       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200135c8       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.boot2_copyout
-                0x0000000020011038      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000200135d8      0x100 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .bss.chars_available_callback
-                0x0000000020011138        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000200136d8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.chars_available_param
-                0x000000002001113c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.claimed   0x0000000020011140        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000200136dc        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .bss.claimed   0x00000000200136e0        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss.configured_freq
-                0x0000000020011144       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000200136e4       0x28 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.dap_taskhandle
-                0x000000002001116c        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x000000002001116c                dap_taskhandle
+                0x000000002001370c        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x000000002001370c                dap_taskhandle
  .bss.default_alarm_pool_entry_ids_high
-                0x0000000020011170       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020013710       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x0000000020011180       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
- .bss.drivers   0x00000000200111b0        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020013720       0x30 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.drivers   0x0000000020013750        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.e15_last_sof
-                0x00000000200111b4        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000200111b4                e15_last_sof
- .bss.filter    0x00000000200111b8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020013754        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020013754                e15_last_sof
+ .bss.filter    0x0000000020013758        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.gpio_ctrl_prev
-                0x00000000200111bc        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+                0x000000002001375c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .bss.hw_endpoints
-                0x00000000200111c0      0x400 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020013760      0x400 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.lazy_vsnprintf
-                0x00000000200115c0        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020013b60        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss.next_buffer_ptr
-                0x00000000200115c4        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020013b64        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.pad_ctrl_prev
-                0x00000000200115c8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .bss.pools     0x00000000200115cc       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020013b68        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+ .bss.pools     0x0000000020013b6c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.pucAlignedHeap.0
-                0x00000000200115dc        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
+                0x0000000020013b7c        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .bss.pxCrossCoreSpinLock
-                0x00000000200115e0        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020013b80        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.pxCurrentTCB
-                0x00000000200115e4        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
-                0x00000000200115e4                pxCurrentTCB
+                0x0000000020013b84        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020013b84                pxCurrentTCB
  .bss.pxCurrentTimerList
-                0x00000000200115e8        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020013b88        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.pxDelayedTaskList
-                0x00000000200115ec        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020013b8c        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.pxOverflowDelayedTaskList
-                0x00000000200115f0        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020013b90        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.pxOverflowTimerList
-                0x00000000200115f4        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020013b94        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.pxReadyTasksLists
-                0x00000000200115f8      0x280 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020013b98      0x280 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.pxYieldSpinLock
-                0x0000000020011878        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020013e18        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.retrieved_id
-                0x000000002001187c        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020013e1c        0x8 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.sf_clz_func
-                0x0000000020011884        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020011884                sf_clz_func
+                0x0000000020013e24        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020013e24                sf_clz_func
  .bss.sleep_notifier
-                0x0000000020011888        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020013e28        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x000000002001188c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020013e2c       0x10 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.tud_taskhandle
-                0x000000002001189c        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
-                0x000000002001189c                tud_taskhandle
- .bss.uID       0x00000000200118a0        0x8 CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj
+                0x0000000020013e3c        0x4 CMakeFiles/JTAGprobe.dir/src/main.c.obj
+                0x0000000020013e3c                tud_taskhandle
+ .bss.uID       0x0000000020013e40        0x8 CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj
  .bss.uart_char_to_line_feed
-                0x00000000200118a8        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x00000000200118a8                uart_char_to_line_feed
+                0x0000000020013e48        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000020013e48                uart_char_to_line_feed
  .bss.uart_inst
-                0x00000000200118ac        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x0000000020013e4c        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .bss.uart_instance
-                0x00000000200118b0        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.ucHeap    0x00000000200118b4    0x10000 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
+                0x0000000020013e50        0x4 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .bss.ucHeap    0x0000000020013e54    0x10000 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .bss.ulYieldSpinLockSaveValue
-                0x00000000200218b4        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020023e54        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.usb_serial
-                0x00000000200218b8       0x11 CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj
-                0x00000000200218b8                usb_serial
- *fill*         0x00000000200218c9        0x3 
+                0x0000000020023e58       0x11 CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj
+                0x0000000020023e58                usb_serial
+ *fill*         0x0000000020023e69        0x3 
  .bss.uxCriticalNesting
-                0x00000000200218cc        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020023e6c        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.uxCrossCoreEventBits
-                0x00000000200218d0        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020023e70        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.uxCurrentNumberOfTasks
-                0x00000000200218d4        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023e74        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.uxDeletedTasksWaitingCleanUp
-                0x00000000200218d8        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023e78        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.uxSchedulerSuspended
-                0x00000000200218dc        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023e7c        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.uxTaskNumber
-                0x00000000200218e0        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023e80        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.uxTopReadyPriority
-                0x00000000200218e4        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023e84        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xActiveTimerList1
-                0x00000000200218e8       0x14 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020023e88       0x14 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.xActiveTimerList2
-                0x00000000200218fc       0x14 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020023e9c       0x14 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.xDelayedTaskList1
-                0x0000000020021910       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023eb0       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xDelayedTaskList2
-                0x0000000020021924       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023ec4       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xEventGroup
-                0x0000000020021938        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000020023ed8        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj
  .bss.xIdleTaskHandle
-                0x000000002002193c        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023edc        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xLastTime.0
-                0x0000000020021940        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020023ee0        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.xNextFreeByte
-                0x0000000020021944        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
+                0x0000000020023ee4        0x4 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .bss.xNextTaskUnblockTime
-                0x0000000020021948        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023ee8        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xNumOfOverflows
-                0x000000002002194c        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023eec        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xPendedTicks
-                0x0000000020021950        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023ef0        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xPendingReadyList
-                0x0000000020021954       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023ef4       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xSchedulerRunning
-                0x0000000020021968        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023f08        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xSuspendedTaskList
-                0x000000002002196c       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023f0c       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xTasksWaitingTermination
-                0x0000000020021980       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023f20       0x14 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xTickCount
-                0x0000000020021994        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023f34        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.xTimerQueue
-                0x0000000020021998        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020023f38        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.xTimerTaskHandle
-                0x000000002002199c        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
+                0x0000000020023f3c        0x4 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
  .bss.xYieldPending
-                0x00000000200219a0        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
+                0x0000000020023f40        0x4 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
  .bss.DAP_TransferAbort
-                0x00000000200219a4        0x1 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
-                0x00000000200219a4                DAP_TransferAbort
+                0x0000000020023f44        0x1 CMakeFiles/JTAGprobe.dir/src/DAP.c.obj
+                0x0000000020023f44                DAP_TransferAbort
  .bss._app_driver_count
-                0x00000000200219a5        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020023f45        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._in_ep_addr
-                0x00000000200219a6        0x1 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020023f46        0x1 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .bss._out_ep_addr
-                0x00000000200219a7        0x1 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
+                0x0000000020023f47        0x1 CMakeFiles/JTAGprobe.dir/src/tusb_edpt_handler.c.obj
  .bss._sof_enable
-                0x00000000200219a8        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020023f48        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.boot2_copyout_valid
-                0x00000000200219a9        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x00000000200219aa        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020023f49        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020023f4a        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x00000000200219ab        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020023f4b        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x00000000200219ac        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020023f4c        0x1 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x00000000200219b0                . = ALIGN (0x4)
- *fill*         0x00000000200219ad        0x3 
-                0x00000000200219b0                __bss_end__ = .
+                0x0000000020023f50                . = ALIGN (0x4)
+ *fill*         0x0000000020023f4d        0x3 
+                0x0000000020023f50                __bss_end__ = .
 
-.heap           0x00000000200219b0      0x800
-                0x00000000200219b0                __end__ = .
-                0x00000000200219b0                end = __end__
+.heap           0x0000000020023f50      0x800
+                0x0000000020023f50                __end__ = .
+                0x0000000020023f50                end = __end__
  *(.heap*)
- .heap          0x00000000200219b0      0x800 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x00000000200221b0                __HeapLimit = .
+ .heap          0x0000000020023f50      0x800 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020024750                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000      0x800
  *(.stack1*)
@@ -3300,8 +3346,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x000000001000b8a4        0x0
-                0x000000001000b8a4                __flash_binary_end = .
+.flash_end      0x000000001000de3c        0x0
+                0x000000001000de3c                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3399,7 +3445,7 @@ LOAD CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj
 LOAD CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
 LOAD CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 LOAD CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
-LOAD /tmp/ccJtWPfp.o
+LOAD /tmp/ccwJBGWG.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3553,7 +3599,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000aec       0x2c CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .ARM.attributes
-                0x0000000000000b18       0x22 /tmp/ccJtWPfp.o
+                0x0000000000000b18       0x22 /tmp/ccwJBGWG.o
  .ARM.attributes
                 0x0000000000000b3a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
