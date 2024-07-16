@@ -391,6 +391,8 @@ static uint32_t DAP_SWJ_Pins(const uint8_t *request, uint8_t *response) {
 }
 
 
+
+
 // Process SWJ Clock command and prepare response
 //   request:  pointer to request data
 //   response: pointer to response data
