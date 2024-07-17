@@ -2073,6 +2073,30 @@ src/SWO.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SWO.c.s
 .PHONY : src/SWO.c.s
 
+src/SW_DP.obj: src/SW_DP.c.obj
+.PHONY : src/SW_DP.obj
+
+# target to build an object file
+src/SW_DP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj
+.PHONY : src/SW_DP.c.obj
+
+src/SW_DP.i: src/SW_DP.c.i
+.PHONY : src/SW_DP.i
+
+# target to preprocess a source file
+src/SW_DP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.i
+.PHONY : src/SW_DP.c.i
+
+src/SW_DP.s: src/SW_DP.c.s
+.PHONY : src/SW_DP.s
+
+# target to generate assembly for a file
+src/SW_DP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/src/SW_DP.c.s
+.PHONY : src/SW_DP.c.s
+
 src/get_serial.obj: src/get_serial.c.obj
 .PHONY : src/get_serial.obj
 
@@ -2416,6 +2440,9 @@ help:
 	@echo "... src/SWO.obj"
 	@echo "... src/SWO.i"
 	@echo "... src/SWO.s"
+	@echo "... src/SW_DP.obj"
+	@echo "... src/SW_DP.i"
+	@echo "... src/SW_DP.s"
 	@echo "... src/get_serial.obj"
 	@echo "... src/get_serial.i"
 	@echo "... src/get_serial.s"
