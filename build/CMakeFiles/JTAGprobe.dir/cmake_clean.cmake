@@ -156,6 +156,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/JTAGprobe.dir/src/JTAG_DP.c.obj.d"
   "CMakeFiles/JTAGprobe.dir/src/SWO.c.obj"
   "CMakeFiles/JTAGprobe.dir/src/SWO.c.obj.d"
+  "CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj"
+  "CMakeFiles/JTAGprobe.dir/src/SW_DP.c.obj.d"
   "CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj"
   "CMakeFiles/JTAGprobe.dir/src/get_serial.c.obj.d"
   "CMakeFiles/JTAGprobe.dir/src/main.c.obj"
