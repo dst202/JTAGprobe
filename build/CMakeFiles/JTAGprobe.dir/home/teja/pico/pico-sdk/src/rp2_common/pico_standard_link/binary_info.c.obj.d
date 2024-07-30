@@ -3,17 +3,17 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_li
  /home/teja/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/teja/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /home/teja/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/teja/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/sys/features.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/version.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/config_autogen.h \

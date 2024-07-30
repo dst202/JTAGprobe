@@ -80,7 +80,7 @@ This information includes:
 
 /// Default communication mode on the Debug Access Port.
 /// Used for the command \ref DAP_Connect when Port Default mode is selected.
-#define DAP_DEFAULT_PORT        2U              ///< Default JTAG/SWJ Port Mode: 1 = SWD, 2 = JTAG.
+#define DAP_DEFAULT_PORT        1U              ///< Default JTAG/SWJ Port Mode: 1 = SWD, 2 = JTAG.
 
 /// Default communication speed on the Debug Access Port for SWD and JTAG mode.
 /// Used to initialize the default SWD/JTAG clock frequency.
@@ -381,14 +381,14 @@ Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
 */
 __STATIC_INLINE void PORT_SWD_SETUP (void) {
 
-  gpio_set_dir(DAP_SWJ_SWCLK_TCK, GPIO_OUT);
   gpio_put(DAP_SWJ_SWCLK_TCK, true);
+  gpio_set_dir(DAP_SWJ_SWCLK_TCK, true);
 
-  gpio_set_dir(DAP_SWJ_SWDIO_TMS, GPIO_IN);
-  gpio_put(DAP_SWJ_SWDIO_TMS, false);
+  gpio_put(DAP_SWJ_SWDIO_TMS, true);
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS, true);
 
-  gpio_set_dir(DAP_SWJ_nRESET, GPIO_IN);
-  gpio_put(DAP_SWJ_nRESET, false);
+  gpio_put(DAP_SWJ_nRESET, true);
+  gpio_set_dir(DAP_SWJ_nRESET, true);
 
   set_pin_high_z(DAP_SWJ_TDI);
   set_pin_high_z(DAP_SWJ_nTRST);
@@ -446,18 +446,6 @@ __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
 
 
 // SWDIO/TMS Pin I/O --------------------------------------
-
-
-
-// Implementing SWDIO without using level shifter with Enrico logic
-
-/*
-Get Input is impleneted by 
-
-
-*/
-
-
 
 /** SWDIO/TMS I/O pin: Get Input.
 \return Current status of the SWDIO/TMS DAP hardware I/O pin.
@@ -521,13 +509,14 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
       OE         = 1
   */
 
-    if(bit){
-        gpio_set_dir(DAP_SWJ_SWDIO_TMS,false);
+    if(bit & 0x1U)
+    {
+        gpio_put(DAP_SWJ_SWDIO_TMS,true);
 
     }
-    else{
-        gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);
-
+    else
+    {
+        gpio_put(DAP_SWJ_SWDIO_TMS,false);
     }
 }
 
@@ -540,8 +529,7 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_ENABLE  (void) {
   // To implement this Output Enable
   //set PU 1
 
-    gpio_set_pulls(DAP_SWJ_SWDIO_TMS,true,false);
-    
+  gpio_set_dir(DAP_SWJ_SWDIO_TMS,true);    
 
 }
 
@@ -555,8 +543,6 @@ __STATIC_FORCEINLINE void     PIN_SWDIO_OUT_DISABLE (void) {
 //Set  OE 0,PU 0
 
   gpio_set_dir(DAP_SWJ_SWDIO_TMS,false);
-  gpio_set_pulls(DAP_SWJ_SWDIO_TMS,true,false);
-
 }
 
 
