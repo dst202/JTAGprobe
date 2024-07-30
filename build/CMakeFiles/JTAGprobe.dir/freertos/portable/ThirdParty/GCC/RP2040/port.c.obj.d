@@ -1,8 +1,8 @@
 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: \
  /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/port.c \
  /home/teja/pico/JTAGprobe/freertos/include/FreeRTOS.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/teja/pico/JTAGprobe/src/FreeRTOSConfig.h \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -15,7 +15,7 @@ CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/version.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/config_autogen.h \

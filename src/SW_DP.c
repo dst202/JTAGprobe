@@ -49,7 +49,8 @@
   PIN_SWCLK_CLR();                      \
   PIN_DELAY();                          \
   PIN_SWCLK_SET();                      \
-  PIN_DELAY()
+  PIN_DELAY()            
+
 
 #define SW_READ_BIT(bit)                \
   PIN_SWCLK_CLR();                      \
@@ -84,8 +85,6 @@ void SWJ_Sequence (uint32_t count, const uint8_t *data) {
     SW_CLOCK_CYCLE();
     val >>= 1;
     n--;
-
-
   }
 }
 #endif
@@ -127,7 +126,6 @@ void SWD_Sequence (uint32_t info, const uint8_t *swdo, uint8_t *swdi) {
       }
     }
   }
-        gpio_put(PROBE_USB_CONNECTED_LED, 1);
 
 }
 #endif
