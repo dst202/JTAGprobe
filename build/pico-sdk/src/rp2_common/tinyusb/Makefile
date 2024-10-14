@@ -117,18 +117,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule:
-	cd /home/teja/pico/JTAGprobe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
-.PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
+pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/rule:
+	cd /home/teja/pico/JTAGprobe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/rule
+.PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/rule
 
 # Convenience name for target.
-PioasmBuild: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/rule
-.PHONY : PioasmBuild
+pioasmBuild: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/rule
+.PHONY : pioasmBuild
 
 # fast build rule for target.
-PioasmBuild/fast:
-	cd /home/teja/pico/JTAGprobe/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build
-.PHONY : PioasmBuild/fast
+pioasmBuild/fast:
+	cd /home/teja/pico/JTAGprobe/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/build
+.PHONY : pioasmBuild/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule:
@@ -166,7 +166,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... PioasmBuild"
+	@echo "... pioasmBuild"
 	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 .PHONY : help

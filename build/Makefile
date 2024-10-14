@@ -130,19 +130,6 @@ JTAGprobe/fast:
 .PHONY : JTAGprobe/fast
 
 #=============================================================================
-# Target rules for targets named ELF2UF2Build
-
-# Build rule for target.
-ELF2UF2Build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ELF2UF2Build
-.PHONY : ELF2UF2Build
-
-# fast build rule for target.
-ELF2UF2Build/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/build
-.PHONY : ELF2UF2Build/fast
-
-#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -152,8 +139,34 @@ bs2_default: cmake_check_build_system
 
 # fast build rule for target.
 bs2_default/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
+
+#=============================================================================
+# Target rules for targets named picotoolForceReconfigure
+
+# Build rule for target.
+picotoolForceReconfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
+.PHONY : picotoolForceReconfigure
+
+# fast build rule for target.
+picotoolForceReconfigure/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
+.PHONY : picotoolForceReconfigure/fast
+
+#=============================================================================
+# Target rules for targets named picotoolBuild
+
+# Build rule for target.
+picotoolBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
+.PHONY : picotoolBuild
+
+# fast build rule for target.
+picotoolBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build
+.PHONY : picotoolBuild/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default_bin
@@ -165,7 +178,7 @@ bs2_default_bin: cmake_check_build_system
 
 # fast build rule for target.
 bs2_default_bin/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 .PHONY : bs2_default_bin/fast
 
 #=============================================================================
@@ -178,21 +191,21 @@ bs2_default_padded_checksummed_asm: cmake_check_build_system
 
 # fast build rule for target.
 bs2_default_padded_checksummed_asm/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
 #=============================================================================
-# Target rules for targets named PioasmBuild
+# Target rules for targets named pioasmBuild
 
 # Build rule for target.
-PioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PioasmBuild
-.PHONY : PioasmBuild
+pioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
+.PHONY : pioasmBuild
 
 # fast build rule for target.
-PioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build
-.PHONY : PioasmBuild/fast
+pioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/pioasmBuild.dir/build
+.PHONY : pioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named tinyusb_pico_pio_usb_usb_tx_pio_h
@@ -929,6 +942,30 @@ home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.i: home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.s: home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+
 home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
@@ -1145,29 +1182,53 @@ home/teja/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/teja/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
@@ -1377,6 +1438,54 @@ home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
 home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
@@ -1497,6 +1606,30 @@ home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
 home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
@@ -1529,45 +1662,125 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
-
-# target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
-
-# target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
@@ -1593,13 +1806,13 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
@@ -1625,37 +1838,37 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
@@ -1681,13 +1894,13 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
@@ -1697,29 +1910,29 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
@@ -1753,29 +1966,29 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
@@ -1825,61 +2038,101 @@ home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-
-# target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
 
 # target to build an object file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
 
 # target to preprocess a source file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
 
 # target to generate assembly for a file
-home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
+
+# target to build an object file
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+
+# target to preprocess a source file
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+
+# target to generate assembly for a file
+home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JTAGprobe.dir/build.make CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
@@ -2201,11 +2454,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ELF2UF2Build"
-	@echo "... PioasmBuild"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... picotoolBuild"
+	@echo "... picotoolForceReconfigure"
+	@echo "... pioasmBuild"
 	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 	@echo "... JTAGprobe"
@@ -2297,6 +2551,9 @@ help:
 	@echo "... home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
 	@echo "... home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.i"
 	@echo "... home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... home/teja/pico/pico-sdk/src/common/hardware_claim/claim.obj"
+	@echo "... home/teja/pico/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... home/teja/pico/pico-sdk/src/common/hardware_claim/claim.s"
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -2324,9 +2581,12 @@ help:
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... home/teja/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
@@ -2353,6 +2613,12 @@ help:
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
@@ -2368,54 +2634,72 @@ help:
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"

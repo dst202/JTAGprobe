@@ -70,7 +70,7 @@ pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h: pi
 
 pico-sdk/src/rp2_common/tinyusb/usb_tx.pio.h: /home/teja/pico/pico-sdk/lib/tinyusb/hw/mcu/raspberry_pi/Pico-PIO-USB/src/usb_tx.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating usb_tx.pio.h"
-	cd /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/tinyusb && ../../../../pioasm/pioasm -o c-sdk /home/teja/pico/pico-sdk/lib/tinyusb/hw/mcu/raspberry_pi/Pico-PIO-USB/src/usb_tx.pio /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/tinyusb/usb_tx.pio.h
+	cd /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/tinyusb && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/teja/pico/pico-sdk/lib/tinyusb/hw/mcu/raspberry_pi/Pico-PIO-USB/src/usb_tx.pio /home/teja/pico/JTAGprobe/build/pico-sdk/src/rp2_common/tinyusb/usb_tx.pio.h
 
 tinyusb_pico_pio_usb_usb_tx_pio_h: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h
 tinyusb_pico_pio_usb_usb_tx_pio_h: pico-sdk/src/rp2_common/tinyusb/usb_tx.pio.h

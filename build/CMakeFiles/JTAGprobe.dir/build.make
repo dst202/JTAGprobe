@@ -307,38 +307,52 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/t
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c /home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -349,10 +363,24 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sy
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -365,7 +393,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -379,7 +407,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/teja/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/teja/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -393,7 +421,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/teja/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/teja/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -407,7 +435,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/teja/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/teja/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -421,7 +449,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/queue.c.s:
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -435,7 +463,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdl
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -449,7 +477,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_gpio/gp
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -463,7 +491,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/ua
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -477,7 +505,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_clocks/
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -491,7 +519,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -505,7 +533,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vr
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -516,10 +544,24 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -532,7 +574,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -546,7 +588,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -557,23 +599,51 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/run
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -587,7 +657,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -598,50 +668,78 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/boo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -652,22 +750,22 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/doub
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -678,37 +776,37 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -719,36 +817,36 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -759,51 +857,93 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building ASM object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c /home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -817,7 +957,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -831,7 +971,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -845,7 +985,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/u
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -859,7 +999,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_flash/f
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -873,7 +1013,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -887,7 +1027,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -901,7 +1041,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -915,7 +1055,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd_con
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -929,7 +1069,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/audio/aud
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -943,7 +1083,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_d
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -957,7 +1097,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_d
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -971,7 +1111,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_r
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -985,7 +1125,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_d
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -999,7 +1139,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/midi/midi
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1013,7 +1153,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_d
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1027,7 +1167,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_r
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1041,7 +1181,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_d
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1055,7 +1195,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/us
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1069,7 +1209,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/vendor/ve
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1083,7 +1223,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/class/video/vid
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i: cmake_force
@@ -1097,7 +1237,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1111,7 +1251,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1125,7 +1265,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_fif
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1139,7 +1279,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: /home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -c /home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -1153,7 +1293,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/famil
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1167,7 +1307,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/pio
 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.obj -c /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/port.c
 
 CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1181,7 +1321,7 @@ CMakeFiles/JTAGprobe.dir/freertos/portable/ThirdParty/GCC/RP2040/port.c.s: cmake
 CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj: /home/teja/pico/JTAGprobe/freertos/croutine.c
 CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/croutine.c.obj -c /home/teja/pico/JTAGprobe/freertos/croutine.c
 
 CMakeFiles/JTAGprobe.dir/freertos/croutine.c.i: cmake_force
@@ -1195,7 +1335,7 @@ CMakeFiles/JTAGprobe.dir/freertos/croutine.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj: /home/teja/pico/JTAGprobe/freertos/event_groups.c
 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.obj -c /home/teja/pico/JTAGprobe/freertos/event_groups.c
 
 CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.i: cmake_force
@@ -1209,7 +1349,7 @@ CMakeFiles/JTAGprobe.dir/freertos/event_groups.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj: /home/teja/pico/JTAGprobe/freertos/list.c
 CMakeFiles/JTAGprobe.dir/freertos/list.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/JTAGprobe.dir/freertos/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/JTAGprobe.dir/freertos/list.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/list.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/list.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/list.c.obj -c /home/teja/pico/JTAGprobe/freertos/list.c
 
 CMakeFiles/JTAGprobe.dir/freertos/list.c.i: cmake_force
@@ -1223,7 +1363,7 @@ CMakeFiles/JTAGprobe.dir/freertos/list.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj: /home/teja/pico/JTAGprobe/freertos/queue.c
 CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/queue.c.obj -c /home/teja/pico/JTAGprobe/freertos/queue.c
 
 CMakeFiles/JTAGprobe.dir/freertos/queue.c.i: cmake_force
@@ -1237,7 +1377,7 @@ CMakeFiles/JTAGprobe.dir/freertos/queue.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj: /home/teja/pico/JTAGprobe/freertos/stream_buffer.c
 CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.obj -c /home/teja/pico/JTAGprobe/freertos/stream_buffer.c
 
 CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.i: cmake_force
@@ -1251,7 +1391,7 @@ CMakeFiles/JTAGprobe.dir/freertos/stream_buffer.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj: /home/teja/pico/JTAGprobe/freertos/tasks.c
 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/tasks.c.obj -c /home/teja/pico/JTAGprobe/freertos/tasks.c
 
 CMakeFiles/JTAGprobe.dir/freertos/tasks.c.i: cmake_force
@@ -1265,7 +1405,7 @@ CMakeFiles/JTAGprobe.dir/freertos/tasks.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj: /home/teja/pico/JTAGprobe/freertos/timers.c
 CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj -c /home/teja/pico/JTAGprobe/freertos/timers.c
 
 CMakeFiles/JTAGprobe.dir/freertos/timers.c.i: cmake_force
@@ -1279,7 +1419,7 @@ CMakeFiles/JTAGprobe.dir/freertos/timers.c.s: cmake_force
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1293,7 +1433,7 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_excepti
 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj: CMakeFiles/JTAGprobe.dir/flags.make
 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj: /home/teja/pico/JTAGprobe/freertos/portable/MemMang/heap_1.c
 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj: CMakeFiles/JTAGprobe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj -MF CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj.d -o CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj -c /home/teja/pico/JTAGprobe/freertos/portable/MemMang/heap_1.c
 
 CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.i: cmake_force
@@ -1323,9 +1463,11 @@ JTAGprobe_OBJECTS = \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
@@ -1338,27 +1480,35 @@ JTAGprobe_OBJECTS = \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj" \
+"CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
@@ -1416,9 +1566,11 @@ JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/time.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -1431,27 +1583,35 @@ JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/h
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1489,15 +1649,16 @@ JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/freertos/timers.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/freertos/portable/MemMang/heap_1.c.obj
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/build.make
-JTAGprobe.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+JTAGprobe.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+JTAGprobe.elf: /home/teja/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_copy_to_ram.ld
 JTAGprobe.elf: CMakeFiles/JTAGprobe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking CXX executable JTAGprobe.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/teja/pico/JTAGprobe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Linking CXX executable JTAGprobe.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JTAGprobe.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/teja/pico/JTAGprobe/build/JTAGprobe.elf JTAGprobe.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/teja/pico/JTAGprobe/build/JTAGprobe.elf JTAGprobe.bin
 	/usr/bin/arm-none-eabi-objdump -h /home/teja/pico/JTAGprobe/build/JTAGprobe.elf > JTAGprobe.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/teja/pico/JTAGprobe/build/JTAGprobe.elf >> JTAGprobe.dis
-	elf2uf2/elf2uf2 /home/teja/pico/JTAGprobe/build/JTAGprobe.elf JTAGprobe.uf2
+	_deps/picotool/picotool coprodis --quiet JTAGprobe.dis JTAGprobe.dis || /usr/bin/cmake -E echo "WARNING: Disassembly is not correct"
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/teja/pico/JTAGprobe/build/JTAGprobe.elf JTAGprobe.bin
+	_deps/picotool/picotool uf2 convert --quiet /home/teja/pico/JTAGprobe/build/JTAGprobe.elf JTAGprobe.uf2 --family rp2040 --abs-block
 
 # Rule to build all files generated by this target.
 CMakeFiles/JTAGprobe.dir/build: JTAGprobe.elf

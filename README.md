@@ -19,4 +19,31 @@ The following is **GPIO pinout** for JTAG/SWD
 | nTRST      | 15      |
 | nRESET     | 16      |
 
-You can download **UF2** file or download entirre code and build it.
+You can download **UF2** file or download entire code and build it as mentioned below.
+
+# Hacking
+
+For the purpose of making changes or studying of the code, you may want to compile the code yourself.
+
+First, clone the repository:
+```
+git clone https://github.com/dst202/JTAGprobe
+cd JTAGprobe
+```
+Initialize and update the submodules:
+```
+ git submodule update --init
+```
+Then create and switch to the build directory:
+```
+ mkdir build
+ cd build
+```
+If your environment doesn't contain `PICO_SDK_PATH`, then either add it to your environment variables with `export PICO_SDK_PATH=/path/to/sdk` or add `PICO_SDK_PATH=/path/to/sdk` to the arguments to CMake below.
+
+Run cmake and build the code:
+```
+ cmake ..
+ make
+```
+Done! You should now have a `JTAGprobe.uf2` that you can upload to your JTAG Probe via the UF2 bootloader.

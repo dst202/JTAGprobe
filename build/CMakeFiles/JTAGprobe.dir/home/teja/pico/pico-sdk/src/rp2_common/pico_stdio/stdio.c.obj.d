@@ -13,35 +13,30 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /usr/include/newlib/sys/stdio.h /usr/include/newlib/sys/stat.h \
- /usr/include/newlib/time.h /usr/include/newlib/machine/time.h \
- /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
- /usr/include/newlib/machine/endian.h \
- /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
- /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h \
- /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
- /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
- /usr/include/newlib/machine/types.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /usr/include/newlib/sys/stdio.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/version.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/config_autogen.h \
  /home/teja/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/teja/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
  /home/teja/pico/JTAGprobe/src/FreeRTOSConfig.h \
  /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
- /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/teja/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
  /home/teja/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
  /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
@@ -50,11 +45,16 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /home/teja/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /home/teja/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
  /home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h

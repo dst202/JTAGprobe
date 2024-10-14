@@ -1,3 +1,0 @@
-/home/teja/pico/JTAGprobe/build/pioasm/CMakeFiles/pioasm.dir
-/home/teja/pico/JTAGprobe/build/pioasm/CMakeFiles/edit_cache.dir
-/home/teja/pico/JTAGprobe/build/pioasm/CMakeFiles/rebuild_cache.dir

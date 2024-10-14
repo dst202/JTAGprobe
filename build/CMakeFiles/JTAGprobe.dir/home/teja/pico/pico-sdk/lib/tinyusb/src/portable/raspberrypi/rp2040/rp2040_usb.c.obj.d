@@ -29,30 +29,38 @@ CMakeFiles/JTAGprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
  /home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
  /home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
  /home/teja/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/include/newlib/assert.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/version.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /home/teja/pico/JTAGprobe/build/generated/pico_base/pico/config_autogen.h \
  /home/teja/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/teja/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
  /home/teja/pico/JTAGprobe/src/FreeRTOSConfig.h \
  /home/teja/pico/JTAGprobe/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
- /home/teja/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/teja/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /home/teja/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/teja/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /home/teja/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+ /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
