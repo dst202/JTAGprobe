@@ -1,5 +1,5 @@
 # JTAGprobe
-A fork of opensource version of **debugprobe** built on RASPBERRY pico.It is completely modified to work with JTAG and SWD. This doesnot use  FIFO and PIO functionality of **debugprobe** but uses  standard ARM CMSIS-DAP.
+A fork of opensource version of **debugprobe** built on RASPBERRY pico.It is extendedand  modified to work with JTAG and SWD. This does not use  FIFO and PIO functionality of **debugprobe** but uses  standard ARM CMSIS-DAP.
 
 This supports both **JTAG & SWD** for debugging using OpenOCD, Hence the name **JTAGprobe**
 
