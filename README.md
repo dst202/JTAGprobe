@@ -21,6 +21,14 @@ The following is **GPIO pinout** for JTAG/SWD
 
 You can download **UF2** file or download entire code and build it as mentioned below.
 
+# Images of debugging PICO with another PICO and Bluepill
+
+![Bluepill Debug](images/bluepilldebug.jpg)
+
+![Pico Debug](images/picodebug.jpg)
+
+
+
 # Hacking
 
 For the purpose of making changes or studying of the code, you may want to compile the code yourself.
